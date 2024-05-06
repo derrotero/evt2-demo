@@ -1,0 +1,979 @@
+<?xml version="1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Discurso y derrotero del viaje a los estrechos de Magallanes y Mayre</title>
+        <respStmt>
+          <resp>Comentarios y transcripción realizada por</resp>
+          <name>Iole Caterina Scamuzzi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codificación en formato XML/TEI realizada por</resp>
+          <name>Iole Caterina Scamuzzi</name>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+        <respStmt>
+          <resp>Modelo de codificación XML/TEI y supervisión general por</resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Licencia CC NC-BY-SA.</p>
+      </publicationStmt>
+      <sourceDesc>
+
+        <msDesc>
+          <msIdentifier>
+            <settlement>Madrid, España</settlement>
+            <repository>Biblioteca Nacional de España</repository>
+            <msName>MSS/3019</msName>
+          </msIdentifier>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    
+    <encodingDesc>
+      
+      <charDecl>
+
+        <char xml:id="esuperscript">
+          <localProp name="Name" value="MODIFIER LETTER SMALL E"/>
+          <mapping type="codepoint">U+1D49</mapping>
+          <mapping type="diplomatic">ᵉ</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+
+      </charDecl>
+    </encodingDesc>
+  </teiHeader>
+
+  <facsimile>
+    <surface>
+      <graphic height="2033px" url="discurso-07v.png" width="1400px"/>
+      <zone lrx="807" lry="1265" ulx="444" uly="1184" xml:id="D_fig_07v-01"/>
+    </surface>
+  </facsimile>
+  
+  <text n="Discurso y derrotero" xml:id="discurso">
+    
+    <front>
+      <head type="main">Discurso y derrotero del viaje a los estrechos de <persName ref="#FdeMagallanes">Magallanes</persName> y Mayre</head>
+      <head rend="center" type="sub">y arrumbamiento de las costas que en esta navegación se anduvieron, con los
+        <lb/>debuxos, perspectivas y conocimiento de las tierras con los <choice>
+          <orig>arrazife</orig>
+          <reg>arrecifes</reg>
+        </choice>, baxas, lajas, y yslas nuevamente
+        <lb/>descubiertas con el fondo de todos los puertos, con las bayas en que an comienzo, con las bariaciones de la
+        <lb/>aguja que durante la navegación se observaron y a que hora empieçan las mareas en día de luna nueva con los
+        <lb/>puertos y cabos principales y [a] que parte deel mundo corren las aguas con las hinchantes y baziantes de el
+        <lb/>agua, y las longitudines y latitudines de tonos los lugares. Por Diego Remírez de Arellano, natural de
+        <lb/><add place="above">Xatiba en</add><!-- CHECK decidere se aggiungerlo --> Valencia</head>
+    </front>
+
+    <body>
+      
+      <div>
+
+        <pb n="7v" facs="data/images/single/discurso-07v.png" xml:id="D_fol_07v"/>
+        
+        <head rend="center">Capit. 4. Del <placeName ref="#CaboVirgenes">Cabo de las Vírgines</placeName> al <placeName><w>es<lb/>trecho</w>
+          de Mayre</placeName></head>
+        
+        <p>
+          <lb n="1"/>Del<!-- CHECK --> <placeName ref="#CaboVirgenes">Cabo de las Vírgines</placeName> al
+            <placeName ref="#CaboEspirituSanto">cabo <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> <choice>
+            <orig>Spíritu</orig>
+            <reg>Espíritu</reg>
+          </choice> Santo</placeName> al sur 7 <w>le<add type="arg" place="margin-right">
+            <placeName ref="#CaboEspirituSanto">C. del <choice>
+              <orig><abbr>Sp<am>.</am>u</abbr> Sânto</orig>
+              <reg><expan>Esp<ex>írit</ex>u Santo</expan></reg>
+            </choice></placeName>
+          </add><lb n="2"/>guas</w> ½ el <choice> 
+            <orig>qual</orig>
+            <reg>cual</reg>
+          </choice> está en 52g 45m. Entre estos dos cabos está la
+          <lb n="3"/>boca del <placeName>estrecho de Magallanes</placeName> de la <placeName>mar del norte</placeName>. Está 
+          <lb n="4"/>el <placeName ref="#CaboEspirituSanto">cabo del <choice>
+            <orig>Spíritu</orig>
+            <reg>Espíritu</reg>
+          </choice> Santo</placeName> en la <placeName>tierra del fogo</placeName> la <choice>
+            <orig>qual</orig>
+            <reg>cual</reg>
+          </choice> aunque 
+          <lb n="5"/>no es muy alta lo es mucho más que la tierra del norte. Tiene 
+          <lb n="6"/>esta costa <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> cabo barreras cortadas a pique y el mismo cabo es 
+          <lb n="7"/>un muro cortado a plomo encima del <choice>
+            <orig>qual</orig>
+            <reg>cual</reg>
+          </choice> está un <choice>
+            <orig>montezillo</orig>
+            <reg>montecillo</reg>
+          </choice> muy 
+          <lb n="8"/>redondo y tiene la <choice>
+            <orig>bista</orig>
+            <reg>vista</reg>
+          </choice> vista siguiente mirado el noroeste.
+        </p>
+
+        <lb/><!--<lb n="9" type="figure"/><label>9</label>--><figure n="4.1"><figDesc facs="#D_fig_07v-01"><placeName ref="#CaboEspirituSanto">C. del Espíritu Santo</placeName></figDesc></figure>
+  
+        <p>
+          <add type="arg" place="margin-left">Punta del Río</add><lb n="10"/>De este cabo a la punta del río 12 leguas al susueste, la <choice>
+            <orig>qual</orig>
+            <reg>cual</reg>
+          </choice> 
+          <lb n="11"/>está en 53g 23m. Entre estos dos cabos de mar enfuera <w>pa<lb n="12"/></w>rece
+            una muy grande ensenada y se <choice>
+            <orig>ben</orig>
+            <reg>ven</reg>
+          </choice> en ella montañas <w>al<lb n="13"/>tas</w>, al pie de las <choice>
+            <orig>quales</orig>
+            <reg>cuales</reg>
+          </choice> y al norte de ellas está la boca de un 
+          <lb n="14"/>braço brazo de mar y <choice>
+            <orig>nuebo</orig>
+            <reg>nuevo</reg>
+          </choice> <placeName>estrecho al de Magallanes</placeName>, las montañas
+          <lb n="15"/>que están al norte de esta boca no son tan altas como las del 
+          <lb n="16"/>sur de ella, y las que están en esta parte se <choice>
+            <orig>bienen</orig>
+            <reg>vienen</reg>
+          </choice> a rematar en
+          <lb n="17"/>una punta <choice>
+            <orig>baxa</orig>
+            <reg>baja</reg>
+          </choice> que sale a la mar en la tierra de la <choice>
+            <orig>qual</orig>
+            <reg>cual</reg>
+          </choice> <choice>
+            <orig>ay</orig>
+            <reg>hay</reg>
+          </choice>
+          <lb n="18"/>muchos <choice>
+            <orig>montezillos</orig>
+            <reg>montecillos</reg>
+          </choice> redondos. Entre la boca y el <placeName ref="#CaboEspirituSanto">cabo del 
+          <lb n="19"/><choice>
+            <orig><abbr>Spt.u</abbr></orig>
+            <reg><expan>Esp<ex>íri</ex>tu</expan></reg>
+          </choice> Santo</placeName> <choice>
+            <orig>ay</orig>
+            <reg>hay</reg>
+          </choice> en la costa una tierra muy llana y rasa que de 
+          <lb n="20"/>mar enfuera parece todo mar, y por cuya causa parece la <w>ensena<lb n="21"/>da</w>
+            muy grande, y los montes que esta tierra llana tiene a las 
+          <lb n="22"/>espaldas se ban <choice>
+            <orig>lebantando</orig>
+            <reg>levantando</reg>
+          </choice> desde el cabo hasta la boca del <w>bra<lb n="23"/>ço</w> brazo de mar. <choice>
+            <orig>Atrabesando</orig>
+            <reg>Atravesando</reg>
+          </choice> esta boca la <choice>
+            <orig>buelta</orig>
+            <reg>vuelta</reg>
+          </choice> del sueste se
+        </p>
+        
+        <pb n="8r" facs="data/images/single/discurso-08r.png" xml:id="D_fol_08r"/>
+        
+        <p>
+          <lb n="1"/>sondó hasta la mitad de la canal en 15, 16, 18 <choice>
+            <orig>braças</orig>
+            <reg>brazas</reg>
+          </choice> lama,
+          <lb n="2"/>buen tenedor, pero de la mitad de la canal al sueste donde está la 
+          <lb n="3"/>punta de río con 5, 6, 7 <choice>
+            <orig>braças</orig>
+            <reg>brazas</reg>
+          </choice> fondo de piedra. De la punta de<add type="arg" place="margin-right">C. de Peñas</add>
+          <lb n="4"/>el río al <placeName>cabo de Peñas</placeName> 4 leguas al sueste <choice>
+            <orig>quarta</orig>
+            <reg>cuarta</reg>
+          </choice> al sur. <choice>
+            <orig>Ay</orig>
+            <reg>Hay</reg>
+          </choice> entre 
+          <lb n="5"/>estos dos estrechos una pequeña ensenada, y en la mitad <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice>
+          <lb n="6"/>camino cerca de la orilla de la mar se <choice>
+            <orig>berá</orig>
+            <reg>verá</reg>
+          </choice> un farellón negro que de mar 
+          <lb n="7"/>enfuera parece una embarcación sin árbol. La costa de esta <w>en<lb n="8"/>senada</w> es tierra <choice>
+            <orig>baxa</orig>
+            <reg>baja</reg>
+          </choice> con muchos montes, la tierra adentro que <w>es<lb n="9"/>tán</w> de por sí
+            y apartados los unos de los otros con <choice>
+            <orig>differentes</orig>
+            <reg>diferentes</reg>
+          </choice> <w>for<lb n="10"/>mas</w>, de ellos redondos, de ellos chatos, de ellos agudos, de ellos <w>co<lb n="11"/>mo</w>
+            cuchillos, de ellos como sierras<note type="comment" resp="#IS">Hay aquí una señal
+            que parece indicar un cambio de párrafo.</note>. Tiene notables <w>trans<lb n="12"/>formaciones</w>
+            esta tierra mirada por <choice>
+            <orig>differentes</orig>
+            <reg>diferentes</reg>
+          </choice> rumbos: porque 
+          <lb n="13"/>como están la tierra adentro cada uno de por si a <choice>
+            <orig>bezes</orig>
+            <reg>veces</reg>
+          </choice> se encubren 
+          <lb n="14"/>los unos a los otros y a <choice>
+            <orig>bezes</orig>
+            <reg>veces</reg>
+          </choice> juntándose dos hacen como un cuchillo. 
+          <lb n="15"/>Cabo de Peñas mirado al susueste tiene la forma siguiente, y 
+          <lb n="16"/>viniendo a buscar esta tierra por su altura que es la de 53g 2/3 se 
+          <lb n="17"/><choice>
+            <orig>berán</orig>
+            <reg>verán</reg>
+          </choice> las formas de tierra siguientes.
+        </p>
+        
+        <lb/><figure><figDesc><placeName>C. de Peñas</placeName> vista al Oeste</figDesc></figure>
+        <figure><figDesc>Vista al Oeste</figDesc></figure>
+        <figure><figDesc>Visto al Oeste</figDesc></figure>
+        
+        <p>
+          <lb n="21"/>Del <placeName>cabo de Peñas</placeName> al de <placeName>S. Inés</placeName>
+            que está en 54g 15m 21 leg. ¼ al <w>susu<add type="arg" place="margin-right">C. de S. Ynés</add><lb n="22"/>este</w> <choice>
+            <orig>quarta</orig>
+            <reg>cuarta</reg>
+          </choice> al leste. Ay entre estos dos cabos una muy grande ensenada, 
+          <lb n="23"/>la tierra de la costa, tierra <choice>
+            <orig>baxa</orig>
+            <reg>baja</reg>
+          </choice> con algunos <choice>
+            <orig>arrazifes</orig>
+            <reg>arrecifes</reg>
+          </choice>, la tierra adentro 
+          <lb n="24"/>se descubre una cordillera de montañas muy altas y por lo más alto de ellas 
+          <lb n="25"/>un sin número de <choice>
+            <orig>montezillos</orig>
+            <reg>montecillos</reg>
+          </choice> redondos, agudos a modo de montones de
+          <lb n="26"/>sal como <choice>
+            <orig>zimborrios</orig>
+            <reg>cimborrios</reg>
+          </choice>, chapiteles y picos todas cargadas de nieve, y <w>tan<lb n="27"/>ta</w> multitud de ellas que la <choice>
+            <orig>ynmensa</orig>
+            <reg>inmensa</reg>
+          </choice> variedad causaba un cierto <w>gé<lb n="28"/>nero</w> de agrado a la <choice>
+            <orig>bista</orig>
+            <reg>vista</reg>
+          </choice>. De mar enfuera parecen nubes <w>blan<lb n="29"/>cas</w> puestas <choice>
+            <orig>arraiz</orig>
+            <reg>a raiz</reg>
+          </choice> <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> horizonte, y sobre si lo eran o no se hubieron
+          <lb n="30"/>notables porfías. Dura esta cordillera de montes casi hasta el <placeName><w>es<lb n="31"/>trecho</w>
+            de Mayre</placeName>. A 12, 0 14 leguas del <placeName>C. de Peñas</placeName> se ben
+          <lb n="32"/>en la costa un <choice>
+            <orig>arrazife</orig>
+            <reg>arrecife</reg>
+          </choice> de piedras negras y que de lexos lejos parecen
+          <lb n="33"/>barcos de pescadores juntos en la playa. Tiene esta costa muchas <w>barre<lb n="34"/>ras</w>
+            pardas, y el <placeName>cabo de S. Ynes</placeName> parece como una <choice>
+            <orig>vallena</orig>
+            <reg>ballena</reg>
+          </choice> <choice>
+            <orig>barada</orig>
+            <reg>varada</reg>
+          </choice>
+
+          <pb n="8v" facs="data/images/single/discurso-08v.png" xml:id="D_fol_08v"/>
+          
+          <lb n="1"/>en tierra. Asimismo en la costa no <choice>
+            <orig>ay</orig>
+            <reg>hay</reg>
+          </choice> nieve, aunque la <choice>
+            <orig>ay</orig>
+            <reg>hay</reg>
+          </choice> mucha en la tierra <w>a<lb n="2"/>dentro</w>. Es a partes llana, y a partes
+            alta, pero no tanto que no se <choice>
+            <orig>biese</orig>
+            <reg>viese</reg>
+          </choice> por sus <w>es<lb n="3"/>paldas</w> la cordillera de montes nevados. Ya por aquí se <choice>
+            <orig>be</orig>
+            <reg>ve</reg>
+          </choice> tierra cargada de <w>ar<lb n="4"/>boledo</w> y mato. En esta costa vimos
+            fuego que duró todo el tiempo que <w>dura<lb n="5"/>mos</w> en pasalla. Entre la tierra que
+            tiene mato y arboledo precen 
+          <lb n="6"/>algunos <choice>
+            <orig>pedaços</orig>
+            <reg>pedazos</reg>
+          </choice> de tierra pelados y secos y aun sin yerba al modo que
+          <lb n="7"/>en las faldas parecen en nuestra España algunos <choice>
+            <orig>pedaços</orig>
+            <reg>pedazos</reg>
+          </choice> de tierra <w>cultiva<lb n="8"/><add type="arg" place="margin-left">El valle</add>dos</w> para sembrar. <choice>
+            <orig>Deel</orig>
+            <reg>Del</reg>
+          </choice> <placeName>cabo de S. Ynes</placeName> al valle 30 leg. ½ al <w>les<lb n="9"/>sueste</w>.
+            Está en altura de 54g 55m. Es la tierra de esta costa más 
+          <lb n="10"/>alta, y muy llena de arboledo con muchos bosques, a las espaldas de
+          <lb n="11"/>ella parece todo día cordillera de montes nevados. Parecen en la costa <w>al<lb n="12"/>gunos</w> <choice>
+            <orig>pedaços</orig>
+            <reg>pedazos</reg>
+          </choice> de laderas pelados, al modo que en los collados parecen 
+          <lb n="13"/>las tierras labradas.
+        </p>
+        
+        <p>
+          <lb n="14"/><add type="arg" place="margin-left">C. de S.<lb/><del>Vicente</del> Diego</add>Del valle al <placeName>cabo de S. <del>Vicente</del>Diego</placeName> quatro leguas al leste. Es este <choice>
+            <orig>ba<lb n="15"/>lle</orig>
+            <reg>va<lb n="15"/>lle</reg>
+          </choice> tierra más <choice>
+            <orig>baxa</orig>
+            <reg>baja</reg>
+          </choice>, con muchos cerros y <choice>
+            <orig>montezillos</orig>
+            <reg>montecillos</reg>
+          </choice> de por si en ella. 
+        </p>
+        
+        <p>
+          <lb n="16"/>Y entre ellas mucho bosque, mato, y arboledo. El <placeName>cabo de S. Diego</placeName>
+            <note type="comment" resp="#IS">El cambio de Vicente a Diego aquí se hace a posteriori, pero cuando el mismo cabo se nombra
+              por segunda vez, ya aparece directamente como Diego. Probablemente el texto se volvió a leer
+              enseguida.</note>
+          <lb n="17"/>se biene viene <del>corriendo</del> <choice>
+            <orig>arremetar</orig>
+            <reg>a rematar</reg>
+          </choice><note type="comment" resp="#IS">Este cambio se hizo durante la escritura.</note> en una punta rasa que está una, o 
+          <lb n="18"/>dos leguas antes de la boca del <placeName>estrecho de Mayre</placeName>. A la tierra de este 
+          <lb n="19"/>valle están unos montes muy altos y en lo más eminente de ellos
+          <lb n="20"/>aparece un peñasco alto negro y redondo que algunos llamaron
+          <lb n="21"/>al pan de <choice>
+            <orig>açúcar</orig>
+            <reg>azúcar</reg>
+          </choice>, y a mí me pareció que tenía la forma de un león 
+          <lb n="22"/>echado sobre sus manos, el <choice>
+            <orig>qual</orig>
+            <reg>cual</reg>
+          </choice> mirado al Su[su]doeste<note type="comment" resp="#IS">La sílaba [su] es
+            una integración a posteriori, que se añade también a la descripción
+            del dibujo.</note> tiene la
+          <lb n="23"/>vista siguiente.
+        </p>
+        
+        <lb/><figure><figDesc>Visto al su[su]dueste</figDesc></figure><!-- CHECK add above -->
+
+        <p>
+          <lb n="25"/>Vese también del mar del Sur, y los montes sobre que el está 
+          <lb n="26"/>son costa del mismo mar del Sur es el mejor conocimiento que se 
+          <lb n="27"/>puede hallar para este estrecho como lo digo en el derrotero<note type="comment" resp="#IS">He
+            aquí las palabras del derrotero, fol. 28r “pues toda ella es limpia y los
+            vientos forçosos siempre son por encima de la tierra, aprovechándose de los
+            conocimientos de la tierra que están expuestos en el capítulo quarto”.</note>. Su <choice>
+            <orig>bista</orig>
+            <reg>vista</reg>
+          </choice>
+          <lb n="28"/>mirado al nordordeste de la mar del sur es la siguiente.
+        </p>
+           
+        <lb/><figure><figDesc>Vista <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> mar del sur al nornordeste</figDesc></figure>
+
+        <p>
+          <lb n="30"/><add type="arg" place="margin-left">C. de S. <choice>
+              <abbr>Vic<am>ê</am>te</abbr>
+              <expan>Vice<ex>n</ex>te</expan>
+            </choice></add>Del <placeName>cabo de S. Diego</placeName> al <placeName>de S. Vicente</placeName>
+            que está en la boca del <w>mis<lb n="31"/>mo</w> estrecho y desde el se <choice>
+              <orig>empieça</orig>
+              <reg>empieza</reg>
+            </choice> <choice>
+            <sic>la entrada la entrada</sic>
+            <corr>la entrada</corr>
+          </choice><note type="comment" resp="#IS">La diplografía es autorial.</note> una o
+          <lb n="32"/>dos leguas al susueste entre las dos <choice>
+            <orig>ay</orig>
+            <reg>hay</reg>
+          </choice> una pequeña ensenada,
+          <lb n="33"/>y la tierra <choice>
+            <orig>baxa</orig>
+            <reg>baja</reg>
+          </choice> y casi llana y la costa de barreras cortadas a pique
+          <lb n="34"/>pero cubiertas de yerba verde. Llegamos al <placeName>cabo de S. <w>Vicen<lb n="35"/><add type="arg" place="margin-left">Estrecho
+            de Mayre</add>te</w></placeName>
+            <date when-iso="1619-01-22">Martes 22 de Enero</date> día de <persName>S. Vicente Mártir</persName> a las 6 horas de la 
+          <lb n="36"/>tarde, año <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> <choice>
+            <abbr>S<am>.</am></abbr>
+            <expan>S<ex>eñor</ex></expan>
+          </choice> de <date when-iso="1619">1619</date>. Teníamos noroestes muy frescos y 
+          <lb n="37"/>hallamos la corriente en contra que corría la <choice>
+            <orig>buelta</orig>
+            <reg>vuelta</reg>
+          </choice> <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> norte 
+          <lb n="38"/>tan fuertemente que con traer los navíos viento fresquísimo en 
+          <lb n="39"/>todas las <choice>
+            <orig>belas</orig>
+            <reg>velas</reg>
+          </choice> con muy grande dificultad la podíamos romper,
+          <lb n="40"/>particularmente enfrente del <placeName>C. de S. Vicente</placeName> <choice>
+            <orig>estubieron</orig>
+            <reg>estuvieron</reg>
+          </choice>
+          <lb n="41"/>los <choice>
+            <orig>nabíos</orig>
+            <reg>navíos</reg>
+          </choice> por un buen rato sin ganar un palmo de tierra, y
+          
+          <w>ten<pb n="9r" facs="data/images/single/discurso-09r.png" xml:id="D_fol_09r"/><lb n="1"/>go</w>
+          
+          por sin duda que a no ser el <choice>
+            <orig>biento</orig>
+            <reg>viento</reg>
+          </choice> tan fresco no la pudiéramos romper. Fue 
+          <lb n="2"/>Dios servido la rompiésemos con no pequeño gusto. Fuimos entrando por el <w>es<lb n="3"/>trecho</w>
+            arrimados a la banda del Oeste con la <term>sonda</term> en la mano un <choice>
+            <orig>quarto</orig>
+            <reg>cuarto</reg>
+          </choice> de 
+          <lb n="4"/>legua y menos apartados de tierra, y enfrente del cabo de S. Vicente en 16
+          <lb n="5"/>20 braças  brazas de fondo hallamos piedra. En <term>escapulando</term> el cabo <choice>
+            <orig>ay</orig>
+            <reg>hay</reg>
+          </choice> una <w>en<lb n="6"/>senada</w> grande, fuimos a ella por ver si pudiésemos dar fondo, siempre por 
+          <lb n="7"/>10, 12, y 14 <choice>
+            <orig>braças</orig>
+            <reg>brazas</reg>
+          </choice> mal fondo y piedra. Deesta suerte la fuimos <choice>
+            <orig>baxando</orig>
+            <reg>bajando</reg>
+          </choice> <w>to<lb n="8"/>da</w> a tiro de piedra de tierra, y no hallando cosa buena
+            <term>escapulando</term> la <w>pun<lb n="9"/>ta</w> de los montes, nos metimos en una
+            cala que estaba entre dos montes altos 
+          <lb n="10"/>harto buena, y hallamos en 12, y 14 braças  brazas fondo de piedra. <term><w>Escapu<lb n="11"/>lamos</w></term>
+            la punta de otro monte que sacaba una <choice>
+            <orig>arrazife</orig>
+            <reg>arrecife</reg>
+          </choice> a la mar y <w>descubri<lb n="12"/>mos</w> una ensenada muy capaz y buena y nos
+            metimos dentro de ella casi <w>has<lb n="13"/>ta</w> la midad, hasta donde hallamos siempre
+            mal fondo, hasta que fue Dios <w>ser<lb n="14"/>vido</w> que tanto se metió <choice>
+            <abbr>Nr<am>â</am></abbr>
+            <expan>N<ex>uestra</ex></expan>
+          </choice> Señora del Buen Suceso (que a ella se debe el <w>descubri<lb n="15"/>miento</w> de este puerto)
+            que halló fondo limpio, y en fondo de 12 <choice>
+            <orig>braças</orig>
+            <reg>brazas</reg>
+          </choice> <w>are<lb n="16"/>na</w> negra algo gruesa, largamos áncora y si en este puerto no hubiera <choice>
+            <orig><abbr>bu<am>ê</am></abbr></orig>
+            <reg><expan>bue<ex>n</ex></expan></reg>
+          </choice> 
+          <lb n="17"/>fondo, en todo el estrecho abía adonde ancorar. Avía en este estrecho <choice>
+            <orig><abbr>qu<am>â</am></abbr></orig>
+            <reg><expan>cua<ex>ndo</ex></expan></reg>
+          </choice> cuando 
+          <lb n="18"/>entramos tanta <choice>
+            <orig>ynmensidad</orig>
+            <reg>inmensidad</reg>
+          </choice> de <choice>
+            <orig>páxaros</orig>
+            <reg>pájaros</reg>
+          </choice> que cubrían el sol y de los <choice>
+            <abbr><am>q</am></abbr>
+            <expan>q<ex>ue</ex></expan>
+          </choice>
+          <lb n="19"/>estaban en el agua no se <choice>
+            <orig>beýa</orig>
+            <reg>veýa</reg>
+          </choice> por grandes espacios sino un mar negro, por
+          <lb n="20"/>que lo eran ellos. <choice>
+            <orig>Avía</orig>
+            <reg>Había</reg>
+          </choice> también muchos pinguins y un sinnúmero de <w>pe<lb n="21"/>rros</w> y lobos marinos.
+            Pudiérasele poner por nombre a este estrecho con <w>algu<lb n="22"/>na</w> propiedad Estrecho de los <choice>
+            <orig>páxaros</orig>
+            <reg>pájaros</reg>
+          </choice> o del Buen Suceso, pero por no
+          <lb n="23"/>quitar la gloria al primer descubridor que fue <persName>Mayre</persName> y que aunque <w>es<lb n="24"/>trangero</w>
+            <choice>
+              <sic>re</sic>
+              <corr>le</corr>
+            </choice> cupo por suerte el descubrille le nombró con su nombre, además 
+          <lb n="25"/>que Su <choice>
+            <orig><abbr>Mag<am>.</am>d</abbr></orig>
+            <reg><expan>Maj<ex>esta</ex>d</expan></reg>
+          </choice> se lo da en sus órdenes. <choice>
+            <abbr>Pusier<am>ô</am></abbr>
+            <expan>Pusiero<ex>n</ex></expan>
+          </choice> por nombre al puerto
+          <lb n="26"/>donde <choice>
+            <orig>estubimos</orig>
+            <reg>estuvimos</reg>
+          </choice> ancorados <placeName>Puerto <choice>
+            <orig>Nuebo</orig>
+            <reg>Nuevo</reg>
+          </choice></placeName>, por <choice>
+            <orig>aberle</orig>
+            <reg>haberle</reg>
+          </choice> descubierto 
+          <lb n="27"/><add type="arg" place="margin-left">Puerto del
+             <choice>
+               <abbr>bu<am>ê</am></abbr>
+               <expan>bue<ex>n</ex></expan>
+             </choice> Suceso</add><choice>
+            <abbr>Nra S<am>.</am>ra</abbr>
+            <expan>N<ex>uest</ex>ra S<ex>eño</ex>ra</expan>
+          </choice> del Buen Suceso por <choice>
+            <orig>yr</orig>
+            <reg>ir</reg>
+          </choice> delante (que a no <choice>
+            <orig>yr</orig>
+            <reg>ir</reg>
+          </choice> harto riesgo corríamos <add place="above">al hallarle</add><note type="comment" resp="#IS">En
+            el ms estas palabras se encuentran en la interlínea, pero hay una V indicando que hay
+            que integrarlas al final del paréntesis.</note>) le <w>pu<lb n="28"/>se</w>
+            nombre del <placeName>Buen Suceso</placeName><!-- CHECK è il nome della caravella, trova markup corretto -->.
+            Es muy capaz y bueno, córrese leste oeste,
+          <lb n="29"/>tiene más de tres <choice>
+            <orig>quartos</orig>
+            <reg>cuartos</reg>
+          </choice> de legua de entrada y media legua pequeña
+          <lb n="30"/>de boca, rematase en una playuela de arena que se corre norte sur.
+        </p>
+        
+        <p>
+          <lb n="31"/>Está entre dos montes muy altos y muy llenos de arboledo, que muchos 
+          <lb n="32"/>De ellos por la antigüedad están secos. Al Oste de la playa se mete 
+          <lb n="33"/>un balle muy grande la <choice>
+            <orig>qual</orig>
+            <reg>cual</reg>
+          </choice> está llenísima de árboles, y al norte no
+          <lb n="34"/>es tan grande pero tan lleno de árboles que <choice>
+            <orig>hazen</orig>
+            <reg>hacen</reg>
+          </choice> un bosque <w>intrica<lb n="35"/>ble</w>. Tiene este puerto mucha leña, y seca, mucha agua, porque en
+          <lb n="36"/>la playuela hallarán tres arroyuelos, el mayor de todos es el de la parte
+          <lb n="37"/><choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> sur porque de pleamar puede entrar una chalupa en él pero es agua
+          <lb n="38"/><choice>
+            <orig>suzia</orig>
+            <reg>sucia</reg>
+          </choice> y viene llena de limo. El que está en medio la playa es más peque
+          <lb n="39"/>ño, y de todos tres el más acomodado para <choice>
+            <orig>hazer</orig>
+            <reg>hacer</reg>
+          </choice> la aguada es el de la 
+          <lb n="40"/>parte <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> norte, tanto por ser el agua más limpia aunque de mal color 
+          <lb n="41"/>por pasar por entre muchos maderos que de <choice>
+            <orig>biejos</orig>
+            <reg>viejos</reg>
+          </choice> se <choice>
+            <abbr>cayer<am>ô</am></abbr>
+            <expan>cayero<ex>n</ex></expan>
+          </choice> y la <choice>
+            <orig>fuerça</orig>
+            <reg>fuerza</reg>
+          </choice> <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice>
+          <lb n="42"/>mar e inclemencia de los tiempos los arrumó en la <add place="above">misma</add><note type="comment" resp="#IS">Interlineal.</note>
+            boca <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> arroyuelo
+          <lb n="43"/>como por tenerse más seguridad <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> gentío decestos montes. Pero la
+          
+          <w>me<pb n="9v" facs="data/images/single/discurso-09v.png" xml:id="D_fol_09v"/><lb n="1"/>jor</w>
+          
+            agua, más segura, clara, limpia y dulce se hallará en la costa <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> <w>nor<lb n="2"/>te</w> de este puerto antes de llegar a la playuela y a un
+            peñasco negro que <w>es<lb n="3"/>tá</w> al fin de esta costa, y viniendo arrimados a tierra la <choice>
+            <orig>berán</orig>
+            <reg>verán</reg>
+          </choice> despeñarse 
+          <lb n="4"/><choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> mismo monte. Conoceráse este puerto viniendo costeando la tierra 
+          <lb n="5"/><choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> Oeste porque está entre la segunda y tercera punta <choice>
+            <orig>empeçando</orig>
+            <reg>empezando</reg>
+          </choice> a <w>con<lb n="6"/>tar</w> <choice>
+            <orig>hazia</orig>
+            <reg>hacia</reg>
+          </choice> el norte de la última punta que se be en la parte <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> sur y en la 
+          <lb n="7"/>punta que está al sur de esta boca se <choice>
+            <orig>berá</orig>
+            <reg>verá</reg>
+          </choice> un islote en el que siempre 
+          <lb n="8"/>ay <choice>
+            <orig>páxaros</orig>
+            <reg>pájaros</reg>
+          </choice>. Tiene asimismo mucho pescado, que no bien se echaba 
+          <lb n="9"/>el anzuelo a la mar <choice>
+            <orig>quando</orig>
+            <reg>cuando</reg>
+          </choice> subían el pescado a bordo. <choice>
+            <orig>Ay</orig>
+            <reg>Hay</reg>
+          </choice> asimismo 
+          <lb n="10"/>mucha sardina y gorda, y la más sabrosa que yo comí en mi <choice>
+            <orig>bida</orig>
+            <reg>vida</reg>
+          </choice>. El 
+          <lb n="11"/>primero día que saltamos en tierra hallamos en la playuela en gran 
+          <lb n="12"/><choice>
+            <orig>quantidad</orig>
+            <reg>cantidad</reg>
+          </choice> <hi rend="superline">dando toda día</hi>
+          <note type="comment" resp="#IS">Esta parte está evidenciada en el ms porque se le corresponde una sugerencia estilística
+            insertada en el margen derecho: más elegante que “dando toda día a la cola” sería “bullendo”, que, según el
+            Diccionario RAE Autoridades de 1726 “Metafóricamente vale moverse con inquietud. Dícese del aire cuando
+            empieza a moverse y sentirse, y también de otras cosas, como los gusanos, piojos y semejantes insectos,
+            cuando hay muchos juntos en alguna parte”.</note> a la cola que con la <choice>
+              <orig>baziante</orig>
+              <reg>vaciante</reg>
+            </choice> <choice>
+              <orig>abían</orig>
+              <reg>habían</reg>
+            </choice> quedado en <w>se<add type="arg" place="margin-right">alias <choice>
+              <abbr>bull<am>ê</am>do</abbr>
+              <expan>bulle<ex>n</ex>do</expan>
+            </choice></add><lb n="13"/>co</w>. Cargaron las chalupas de ella y por lo menos se llenaron a bordo de 
+          <lb n="14"/>la capitana más de diez mil. Son como digo excelentes y buenas.
+          <lb n="15"/>Puédese ancorar en este puerto <choice>
+            <orig>quasi</orig>
+            <reg>casi</reg>
+          </choice> a tiro de piedra de la playuela que
+          <lb n="16"/>todo es fondo limpio desde 14 hasta 6 <choice>
+            <orig>braças</orig>
+            <reg>brazas</reg>
+          </choice> y particularmente por <w>me<lb n="17"/>dio</w> del puerto, el <choice>
+            <orig>qual</orig>
+            <reg>cual</reg>
+          </choice> tiene por travesías al lessurdeste, leste, y les
+          <lb n="18"/>sueste, y estas tienen poca <choice>
+            <orig>fuerça</orig>
+            <reg>fuerza</reg>
+          </choice> por <choice>
+            <orig>aber</orig>
+            <reg>haber</reg>
+          </choice> muchos embates, y los <w>vien<lb n="19"/>tos</w> más <choice>
+            <orig>forçosos</orig>
+            <reg>forzosos</reg>
+          </choice> <choice>
+            <orig>benir</orig>
+            <reg>venir</reg>
+          </choice> por encima la tierra, los <choice>
+            <orig>quales</orig>
+            <reg>cuales</reg>
+          </choice> echan los montes 
+          <lb n="20"/>que están cargados de nieve la tierra adentro. Estando en <w>tier<lb n="21"/>ra</w>
+            el primer día que en ella saltamos estando cogiendo la sardina que 
+          <lb n="22"/>la mar había <choice>
+            <orig>dexado</orig>
+            <reg>dejado</reg>
+          </choice> en seco, por la parte de <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> sur de la playuela <choice>
+            <orig>bimos</orig>
+            <reg>vimos</reg>
+          </choice>
+          <lb n="23"/><choice>
+            <orig>benir</orig>
+            <reg>venir</reg>
+          </choice> 12 hombres con unas capas de pellejos de animales y en las
+          <lb n="24"/><choice>
+            <orig>cabeças</orig>
+            <reg>cabezas</reg>
+          </choice> unos tocados de pluma blanca que estaban todavía en el <w>mis<lb n="25"/>mo</w>
+            pellejo del <choice>
+              <orig>páxaro</orig>
+              <reg>pájaro</reg>
+            </choice> cuyas eran; venían desnudos sin armas, <w>sal<lb n="26"/>tando</w> y bailando a su modo,
+            dando bramidos, <choice>
+            <abbr>clamore<am>â</am>do</abbr>
+            <expan>clamorea<ex>n</ex>do</expan>
+          </choice>, y con los 
+          <lb n="27"/><choice>
+            <orig>braços</orig>
+            <reg>brazos</reg>
+          </choice> brazos abiertos. Fuéronse llegando a nosotros y lo mismo <choice>
+            <orig>hazíamos</orig>
+            <reg>hacíamos</reg>
+          </choice> <w>no<lb n="29"/>sotros</w> a ellos, hasta que nos juntamos y <choice>
+            <orig>empeçamoz</orig>
+            <reg>empezamoz</reg>
+          </choice> a trocar <w>monte<lb n="30"/>ras</w>, <choice>
+            <orig>lienços</orig>
+            <reg>lienzos</reg>
+          </choice>, y otras niñerías por los pellejos de animales y <w>toca<lb n="31"/>dos</w> de pluma.
+            Entre otros se rescató un pellejo de un carnero. <choice>
+            <orig>Hizí<lb n="32"/>moles</orig>
+            <reg>Hicí<lb n="32"/>moles</reg>
+          </choice> buen tratamiento todo el tiempo que aquí estuvimos, por ver
+          <lb n="33"/>si los podíamos atraer a que fuesen a los navíos dándoles todas las 
+          <lb n="34"/><choice>
+            <orig>bezes</orig>
+            <reg>veces</reg>
+          </choice> que estuvimos con ellos algunas niñerías, pero nunca fue posible, 
+          <lb n="35"/>antes se <choice>
+            <orig>reçelaban</orig>
+            <reg>recelaban</reg>
+          </choice> con notable <choice>
+            <orig>cuydado</orig>
+            <reg>cuidado</reg>
+          </choice> de nosotros, ni menos <w>quisie<lb n="36"/>ron</w> comer biscocho blanco ni beber vino.
+            Comían una yerba que 
+          <lb n="37"/>ellos conocían de la misma suerte que un caballo que tajadamente 
+          <lb n="38"/>sacudían la tierra que sacaban entre las <choice>
+            <orig>rayzes</orig>
+            <reg>raíces</reg>
+          </choice>. Las sardinas de la <w>pla<lb n="39"/>ya</w> comían crudas. Acompañaron
+            nos todos los días que aquí <choice>
+            <orig>es<lb n="40"/>tubimos</orig>
+            <reg>es<lb n="40"/>tuvimos</reg>
+          </choice>, viniendo a nosotros, en viniendo nosotros en tierra. <choice>
+            <orig>Truxe<lb n="41"/>ron</orig>
+            <reg>Truje<lb n="42"/>ron</reg>
+          </choice> flechas pequeñas cuyos <choice>
+            <orig>harpones</orig>
+            <reg>arpones</reg>
+          </choice> eran de pedernal, y todas 
+          <lb n="43"/>ellas muy curiosamente hechas. Rescatamos algunas, pero nunca fue
+          <lb n="44"/>posible nos <choice>
+            <orig>truxesen</orig>
+            <reg>trujesen</reg>
+          </choice> un arco por mucho que <choice>
+            <orig>hizimos</orig>
+            <reg>hicimos</reg>
+          </choice> para ello.
+          
+          <w>Cono<pb n="10r" facs="data/images/single/discurso-10r.png" xml:id="D_fol_10r"/><lb n="1"/>cimos</w>
+          
+            en esto que era gente de guerra y por todas las <choice>
+            <orig>bezes</orig>
+            <reg>veces</reg>
+          </choice> que <choice>
+            <orig>benían</orig>
+            <reg>venían</reg>
+          </choice> a <w>no<lb n="2"/>sotros</w> <choice>
+            <orig>traýan</orig>
+            <reg>traían</reg>
+          </choice> sus arcos y flechas, pero antes de llegar donde <w>está<lb n="3"/>bamos</w> las <choice>
+            <orig>dexaban</orig>
+            <reg>dejaban</reg>
+          </choice> y con ellas un <choice>
+            <orig>yndio</orig>
+            <reg>indio</reg>
+          </choice> de guarda. Asimismo
+          <lb n="4"/>todas las <choice>
+            <orig>bezes</orig>
+            <reg>veces</reg>
+          </choice> que vinieron a nosotros entre los conocidos siempre <choice>
+            <orig><abbr>beni<am>â</am></abbr></orig>
+            <reg><expan>venía<ex>n</ex></expan></reg>
+          </choice> 
+          <lb n="5"/>jente gente <choice>
+            <orig>nueba</orig>
+            <reg>nueva</reg>
+          </choice>. <choice>
+            <orig>Qualquiera</orig>
+            <reg>Cualquiera</reg>
+          </choice> palabra que les <choice>
+            <orig>dezíamos</orig>
+            <reg>decíamos</reg>
+          </choice> la pronunciaban muy 
+          <lb n="6"/>claramente, y yo procuré se les quedase en la memoria el nombre de Jesus 
+          <lb n="7"/>María, tanto que <choice>
+            <orig>quando</orig>
+            <reg>cuando</reg>
+          </choice> ellos venían me lo <choice>
+            <orig>dezían</orig>
+            <reg>decían</reg>
+          </choice> primero por ver 
+          <lb n="8"/>que por ello les daba algo. Eran estos indios y más propiamente <choice>
+            <orig>sel<lb n="9"/>bajes</orig>
+            <reg>sal<lb n="9"/>vajes</reg>
+          </choice> hombres corpulentos, bien hechos y membrudos, ligeros como <choice>
+            <orig>on<lb n="10"/>ças</orig>
+            <reg>on<lb n="10"/>zas</reg>
+          </choice>, eran de buenos rostros, no tenían barbas, el cabello largo, pero
+          <lb n="11"/>hecho una <choice>
+            <orig>garçeta</orig>
+            <reg>garceta</reg>
+          </choice> al modo de <choice>
+            <abbr>nros</abbr>
+            <expan>n<ex>uest</ex>ros</expan>
+          </choice> antiguos. Pintábanse el rostro
+          <lb n="12"/>y todos el <choice>
+            <orig>querpo</orig>
+            <reg>cuerpo</reg>
+          </choice> con almagre y yeso, y algunos de ellos <choice>
+            <orig>binieron</orig>
+            <reg>vinieron</reg>
+          </choice> <w>pinta<lb n="13"/>dos</w> en diferentes días diferentemente, de blanco, negro y colorado, 
+          <lb n="14"/>color que les contentaba mucho porque no <choice>
+            <orig>hazían</orig>
+            <reg>hacían</reg>
+          </choice> sino pedirnos las 
+          <lb n="15"/>almillas. No se les hizo ningún daño, antes muy bien tratamiento;
+          <lb n="16"/>porque es gente de guerra, <choice>
+            <orig>ay</orig>
+            <reg>hay</reg>
+          </choice> muchos y podíanos impedir el hacer
+          <lb n="17"/>leña y agua. Y también si por caso fueren por aquí navíos no los <w>ha<lb n="18"/>llasen</w>
+            escandalizados, y acudan de paz como a nosotros. <w>Corre<lb n="19"/>se</w> este estrecho norte sur,
+            la tierra de la banda del oeste por el mismo <w>rum<lb n="20"/>bo</w>, y <choice>
+            <orig>abrá</orig>
+            <reg>habrá</reg>
+          </choice> desde el <placeName>cabo de S. Vicente</placeName> al <placeName>cabo de los tres farellones</placeName>
+            <w>algu<lb n="21"/>nas</w> 6 leguas norte sur. La costa de la parte del leste se corre nortesur 
+          <lb n="22"/>quarta de suroestesueste que es desde el <placeName>cabo Setabense</placeName> al <placeName>de S.
+            <w>Bar<lb n="23"/><add type="arg" place="margin-left">C. de los
+              <lb/>3 <w>farello<lb/>nes</w></add>tholomé</w></placeName> éste en la mar del sur, aquél en la del norte, y <choice>
+            <orig>abrá</orig>
+            <reg>habrá</reg>
+          </choice> <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice>
+          <lb n="24"/>uno al otro 3 leguas y no grandes. <choice>
+            <orig>Deel</orig>
+            <reg>Del</reg>
+          </choice> <placeName>cabo de S. Vicente</placeName> al 
+          <lb n="25"/><placeName>cabo Setabense</placeName> 5 leguas leste 4ª al sueste. Tendrá <choice>
+            <orig>quando</orig>
+            <reg>cuando</reg>
+          </choice> <w>mu<lb n="26"/>che</w> este estrecho cinco leguas de ancho y 3 de largo por la parte que
+          <lb n="27"/>menos y por la que más seis leguas. La tierra de la banda nel oeste por 
+          <lb n="28"/>el norte <choice>
+            <orig>baxa</orig>
+            <reg>baja</reg>
+          </choice>, por el sur tierra muy alta y montes llenos de arboledo, la 
+          <lb n="29"/>tierra de la banda <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> leste es en la mar del norte alta, pelada y <choice>
+            <orig>des<lb n="30"/>ygual</orig>
+            <reg>des<lb n="30"/>igual</reg>
+          </choice>, y en la mar del sur <choice>
+            <orig>baxa</orig>
+            <reg>baja</reg>
+          </choice>. La perspectiva y <choice>
+            <orig>bista</orig>
+            <reg>vista</reg>
+          </choice> de <w>entram<lb n="31"/>bas</w> tierras es la siguiente
+        </p>
+        
+        <lb/><figure><figDesc>Tierra incógnita vista al leste</figDesc>
+        <figDesc>A. <placeName>Cabo de S. Bartholomé</placeName> está en la mar deel Sur</figDesc>
+        <figDesc><placeName>C. de San Vicente</placeName> visto <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> uno como <choice>
+            <orig>deel</orig>
+            <reg>del</reg>
+          </choice> otro mar.</figDesc></figure>
+
+        <p>
+          <lb n="35"/><choice>
+            <orig>Deel</orig>
+            <reg>Del</reg>
+          </choice> <placeName>cabo Setabense</placeName> se corren algunas <choice>
+            <orig>quatro</orig>
+            <reg>cuatro</reg>
+          </choice> leguas de tierra al
+          
+          <w>nor<pb n="10v" facs="data/images/single/discurso-10v.png" xml:id="D_fol_10v"/><lb n="1"/>deste</w>
+          
+            y en la fin de ella vi tres <choice>
+            <orig>yslas</orig>
+            <reg>islas</reg>
+          </choice> que se corren noroestesueste. Al <w>nor<lb n="2"/>deste</w> del <placeName>cabo Setabense</placeName> <choice>
+            <orig>ay</orig>
+            <reg>hay</reg>
+          </choice> una muy grande ensenada y en ella tres <choice>
+            <orig>yslotes</orig>
+            <reg>islotes</reg>
+          </choice>
+          <lb n="3"/>y muchas de <choice>
+            <orig>bonissimo</orig>
+            <reg>buenísmo</reg>
+          </choice> puerto, como lo tiene toda esta tierra de tenellos. La <w>cos<lb n="4"/>ta</w> en la banda del
+            leste es muy fundable, pues muy cerca de ella en 50, mi 60 <w>le<lb n="5"/>guas</w> digo <choice>
+            <orig>braças</orig>
+            <reg>brazas</reg>
+          </choice> no se halló fondo. <choice>
+            <orig>Ay</orig>
+            <reg>Hay</reg>
+          </choice> en ella tres ensenadas.
+        </p>
+        
+        <p>
+          <lb n="6"/>En doblando el <placeName>cabo de S. Bartholomé</placeName> se corrían cosa de 5, o 6 leguas de 
+          <lb n="7"/>costa leste oeste <choice>
+            <orig>quarta</orig>
+            <reg>cuarta</reg>
+          </choice> de noroeste sueste y se verán en ello cosa de 7 <w>fare<lb n="8"/>llones</w>, de ellos muy agudos
+            como picas, panes de <choice>
+            <orig>açúcar</orig>
+            <reg>azúcar</reg>
+          </choice>, y montoncillos de trigo. 
+        </p>
+        
+        <p>
+          <lb n="9"/>Es toda esta costa tierra incógnita, pues ni se saltó en ella, ni se ancoró en <w>puer<lb n="10"/>to</w>.
+            Es tierra alta, áspera y desigual con muchos <choice>
+            <orig>montezillos</orig>
+            <reg>montecillos</reg>
+          </choice> redondos y
+          <lb n="11"/>agudos en las cumbres, y algunos de ellos cortados por lo más alto. Dio esta
+          <lb n="12"/>tierra incógnita grandes muestras de ser <choice>
+            <orig>ysla</orig>
+            <reg>isla</reg>
+          </choice>, y tener muchos puertos.
+        </p>
+        
+      </div>
+
+
+    </body>
+  </text>
+</TEI>

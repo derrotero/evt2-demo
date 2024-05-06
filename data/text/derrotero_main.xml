@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title></title>
+        <respStmt>
+          <resp>Comentarios y transcripción realizada por</resp>
+          <name>Iole Caterina Scamuzzi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codificación en formato XML/TEI realizada por</resp>
+          <name>Iole Caterina Scamuzzi</name>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+        <respStmt>
+          <resp>Modelo de codificación XML/TEI y supervisión general por</resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Licencia CC NC-BY-SA.</p>
+      </publicationStmt>
+      <sourceDesc>
+                    
+        <!-- ########## Lista Persone ########## -->
+
+        <listPerson>
+          <head>Lista Persone</head>
+
+          <person xml:id="FdeMagallanes">
+            <persName>
+              <forename>Fernando</forename>
+              <surname>de Magallanes</surname>
+            </persName>
+            <note><p>Fernando de Magallanes, también conocido como Hernando de Magallanes (en portugués, Fernão de
+              Magalhães, Sabrosa, Portugal, 4 de febrero de 1480-Mactán, Filipinas, 27 de abril de 1521),​ fue un
+              militar, explorador, marino y navegante portugués de linaje noble. Al servicio de Carlos I, inició en 1519
+              la expedición para alcanzar las Indias Orientales atravesando el Pacífico para abrir una ruta comercial en
+              la que descubrió el canal natural navegable que hoy recibe el nombre de estrecho de Magallanes, realizando
+              la primera navegación de origen europeo desde el océano Atlántico hasta el océano Pacífico, llamado hasta
+              entonces mar del Sur. Esta expedición, en la que Magallanes murió en 1521 en Filipinas, se convirtió en la
+              primera circunnavegación de la Tierra cuando una de sus naos, capitaneada por Juan Sebastián Elcano,
+              regresó a España en 1522 al decidir Elcano regresar navegando hacia el Oeste a través del océano Índico y
+              bordeando África.</p>
+              <p>Información extraída de <ref target="https://es.wikipedia.org/wiki/Fernando_de_Magallanes">Wikipedia</ref>.</p>
+            </note>
+          </person>
+
+        </listPerson>
+
+        <!-- ########## Lista dei luoghi ########## -->
+            <listPlace>
+               <head>Lista dei luoghi</head>
+              
+              <place xml:id="CaboEspirituSanto">
+                <placeName>Cabo del Espíritu Santo</placeName>
+                <placeName type="modern">Punta Dungenes</placeName>
+                <location>
+                  <geo>-52.6583, -68.6068</geo>
+                </location>
+                <note>V. <ref target="https://es.wikipedia.org/wiki/Cabo_del_Esp%C3%ADritu_Santo">Wikipedia</ref></note>
+              </place>
+              
+              <place xml:id="CaboVirgenes" source="http://www.wikidata.org/entity/Q153731">
+                <placeName>Cabo de las Vírgenes</placeName>
+                <placeName type="modern">Punta Dungenes</placeName>
+                <location>
+                  <geo>-52.2354, -68.2606</geo>
+                </location>
+                <note>V. <ref target="http://www.wikidata.org/entity/Q153731">Wikidata</ref></note>
+              </place>
+              
+              <place xml:id="CaboSanVicente">
+                <placeName>Cabo de San Vicente</placeName>
+                <placeName type="modern">Bahia Thetis</placeName>
+                <location>
+                  <geo>-54.3841, -65.1503</geo>
+                </location>
+              </place>
+
+              <place xml:id="CaboSanDiego">
+                <placeName>Cabo de San Diego</placeName>
+                <placeName type="modern">Faro de San Diego</placeName>
+                <location>
+                  <geo>54.6574, -65.1181</geo>
+                </location>
+              </place>
+              
+              <place xml:id="EstrechoSanVicente">
+                <placeName>Estrecho de San Vicente</placeName>
+                <placeName type="modern">Estrecho de Le Maire</placeName>
+                <location>
+                  <geo>-54.5000, -64.5500</geo>
+                </location>
+              </place>
+              
+              <place xml:id="PuertoBuenSuceso">
+                <placeName>Puerto del Buen Suceso</placeName>
+                <placeName type="modern">Bahia del Buen Suceso</placeName>
+                <location>
+                  <geo>-54.4759, -65.1548</geo>
+                </location>
+              </place>
+              
+              <place xml:id="CaboSanIldefonso">
+                <placeName>Cabo de San Ildefonso</placeName>
+                <placeName type="modern">Cabo de Hornos</placeName>
+                <location>
+                  <geo>55.5848, 67.1721</geo>
+                </location>
+              </place>
+              
+              <place xml:id="TierraIncognita">
+                <placeName>Tierra Incógnita</placeName>
+                <placeName type="modern">Isla de los Estados (Argentina)</placeName>
+                <location>
+                  <geo>54.4700, 64.1500</geo>
+                </location>
+              </place>
+              
+              <place xml:id="CanalSanSebastian">
+                <placeName>Canal de San Sebastián</placeName>
+                <note>Donde està?</note>
+              </place>
+              
+              <place xml:id="CaboPenas">
+                <placeName>Cabo Peñas</placeName>
+              </place>
+              
+              <place xml:id="EstrechoMagallanes">
+                <placeName key="Estrecho de Magallanes" ref="http://viaf.org/viaf/235069100/">Estrecho de Magallanes</placeName>
+              </place>
+              
+              <place xml:id="MarDelNorte">
+                <placeName key="North Sea" ref="http://www.wikidata.org/entity/Q1693">Mar del Norte</placeName>
+              </place>
+              
+              <place xml:id="TierraFuego">
+                <placeName key="Tierra del Fuego" ref="http://www.wikidata.org/entity/Q117476938">Tierra del Fuego</placeName>
+              </place>
+              
+              <place>
+                <placeName></placeName>
+                <placeName type="modern"></placeName>
+                <location>
+                  <geo></geo>
+                </location>
+              </place>
+              
+            </listPlace>
+        
+
+      </sourceDesc>
+    </fileDesc>
+    
+    <encodingDesc>
+      
+      <charDecl>
+
+        <char xml:id="esuperscript">
+          <localProp name="Name" value="MODIFIER LETTER SMALL E"/>
+          <mapping type="codepoint">U+1D49</mapping>
+          <mapping type="diplomatic">ᵉ</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+
+      </charDecl>
+    </encodingDesc>
+  </teiHeader>
+
+  <facsimile>
+    <surface>
+      <graphic height="2033px" url="discurso-07v.png" width="1400px"/>
+      <zone lrx="807" lry="1265" ulx="444" uly="1184" xml:id="D_fig_07v-01"/>
+    </surface>
+  </facsimile>
+
+  <text>
+    <group>
+      
+      <xi:include href="discurso.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="discurso"/>
+      
+      <xi:include href="reconocimiento.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="reconocimiento"/>
+
+    </group>
+  </text>
+</TEI>
