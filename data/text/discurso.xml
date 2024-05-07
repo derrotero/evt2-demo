@@ -221,7 +221,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>differentes</orig>
             <reg>diferentes</reg>
           </choice> <w>for<lb n="10"/>mas</w>, de ellos redondos, de ellos chatos, de ellos agudos, de ellos <w>co<lb n="11"/>mo</w>
-            cuchillos, de ellos como sierras<note type="comment" resp="#IS">Hay aquí una señal
+            cuchillos, de ellos como sierras<note n="1" type="comment" resp="#IS">Hay aquí una señal
             que parece indicar un cambio de párrafo.</note>. Tiene notables <w>trans<lb n="12"/>formaciones</w>
             esta tierra mirada por <choice>
             <orig>differentes</orig>
@@ -350,13 +350,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         
         <p>
           <lb n="16"/>Y entre ellas mucho bosque, mato, y arboledo. El <placeName ref="#CaboSanDiego">cabo de S. Diego</placeName>
-            <note type="comment" resp="#IS">El cambio de Vicente a Diego aquí se hace a posteriori, pero cuando el mismo cabo se nombra
+            <note n="2" type="comment" resp="#IS">El cambio de Vicente a Diego aquí se hace a posteriori, pero cuando el mismo cabo se nombra
               por segunda vez, ya aparece directamente como Diego. Probablemente el texto se volvió a leer
               enseguida.</note>
           <lb n="17"/>se biene viene <del>corriendo</del> <choice>
             <orig>arremetar</orig>
             <reg>a rematar</reg>
-          </choice><note type="comment" resp="#IS">Este cambio se hizo durante la escritura.</note> en una punta rasa que está una, o 
+          </choice><note n="3" type="comment" resp="#IS">Este cambio se hizo durante la escritura.</note> en una punta rasa que está una, o 
           <lb n="18"/>dos leguas antes de la boca del <placeName>estrecho de Mayre</placeName>. A la tierra de este 
           <lb n="19"/>valle están unos montes muy altos y en lo más eminente de ellos
           <lb n="20"/>aparece un peñasco alto negro y redondo que algunos llamaron
@@ -367,7 +367,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <lb n="22"/>echado sobre sus manos, el <choice>
             <orig>qual</orig>
             <reg>cual</reg>
-          </choice> mirado al Su[su]doeste<note type="comment" resp="#IS">La sílaba [su] es
+          </choice> mirado al Su[su]doeste<note n="4" type="comment" resp="#IS">La sílaba [su] es
             una integración a posteriori, que se añade también a la descripción
             del dibujo.</note> tiene la
           <lb n="23"/>vista siguiente.
@@ -378,7 +378,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <p>
           <lb n="25"/>Vese también del mar del Sur, y los montes sobre que el está 
           <lb n="26"/>son costa del mismo mar del Sur es el mejor conocimiento que se 
-          <lb n="27"/>puede hallar para este estrecho como lo digo en el derrotero<note type="comment" resp="#IS">He
+          <lb n="27"/>puede hallar para este estrecho como lo digo en el derrotero<note n="5" type="comment" resp="#IS">He
             aquí las palabras del derrotero, fol. 28r “pues toda ella es limpia y los
             vientos forçosos siempre son por encima de la tierra, aprovechándose de los
             conocimientos de la tierra que están expuestos en el capítulo quarto”.</note>. Su <choice>
@@ -405,7 +405,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </choice> <choice>
             <sic>la entrada la entrada</sic>
             <corr>la entrada</corr>
-          </choice><note type="comment" resp="#IS">La diplografía es autorial.</note> una o
+            </choice><note n="6" type="comment" resp="#IS">La diplografía es autorial.</note> una o
           <lb n="32"/>dos leguas al susueste entre las dos <choice>
             <orig>ay</orig>
             <reg>hay</reg>
@@ -548,7 +548,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice> delante (que a no <choice>
             <orig>yr</orig>
             <reg>ir</reg>
-          </choice> harto riesgo corríamos <add place="above">al hallarle</add><note type="comment" resp="#IS">En
+          </choice> harto riesgo corríamos <add place="above">al hallarle</add><note n="7" type="comment" resp="#IS">En
             el ms estas palabras se encuentran en la interlínea, pero hay una V indicando que hay
             que integrarlas al final del paréntesis.</note>) le <w>pu<lb n="28"/>se</w>
             nombre del <placeName>Buen Suceso</placeName><!-- CHECK è il nome della caravella, trova markup corretto -->.
@@ -601,7 +601,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>deel</orig>
             <reg>del</reg>
           </choice>
-          <lb n="42"/>mar e inclemencia de los tiempos los arrumó en la <add place="above">misma</add><note type="comment" resp="#IS">Interlineal.</note>
+          <lb n="42"/>mar e inclemencia de los tiempos los arrumó en la <add place="above">misma</add><note n="8" type="comment" resp="#IS">Interlineal.</note>
             boca <choice>
             <orig>deel</orig>
             <reg>del</reg>
@@ -662,7 +662,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>quantidad</orig>
             <reg>cantidad</reg>
           </choice> <hi rend="superline">dando toda día</hi>
-          <note type="comment" resp="#IS">Esta parte está evidenciada en el ms porque se le corresponde una sugerencia estilística
+            <note n="9" type="comment" resp="#IS">Esta parte está evidenciada en el ms porque se le corresponde una sugerencia estilística
             insertada en el margen derecho: más elegante que “dando toda día a la cola” sería “bullendo”, que, según el
             Diccionario RAE Autoridades de 1726 “Metafóricamente vale moverse con inquietud. Dícese del aire cuando
             empieza a moverse y sentirse, y también de otras cosas, como los gusanos, piojos y semejantes insectos,

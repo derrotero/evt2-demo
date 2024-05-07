@@ -173,7 +173,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <reg>hacía</reg>
           </choice> la forma siguiente: era el <placeName ref="#CaboEspirituSanto">cabo
           <lb n="17"/>del Espíritu Santo</placeName>
-          <lb n="18"/><figure facs="#dettaglio_01">
+          <lb/><figure facs="#dettaglio_01">
             <figDesc><placeName ref="#CaboEspirituSanto">Cabo del Espíritu Santo</placeName> mirando al Norueste</figDesc><note n="1" resp="#IS">MN mirado.</note>
             <graphic url="data/images/detail/cabo_espir_sant.png"></graphic>
           </figure>
@@ -404,9 +404,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <p>
           <lb n="6"/>La tierra del <placeName ref="#CaboPenas">cabo de Peñas</placeName> y la que está al norueste dél, vista
           <lb n="7"/>al oeste y oessudueste, tiene la forma siguiente.
-          <lb n="8"/><figure><figDesc><placeName ref="#CaboPenas">Cabo de Peñas</placeName> visto al Oeste</figDesc></figure>
-          <lb n="9"/><figure><figDesc>La tierra dentro del mismo cabo vista al oeste</figDesc></figure>
-          <lb n="10"/><figure><figDesc>uista al oeste</figDesc></figure>
+          <lb/><figure><figDesc><placeName ref="#CaboPenas">Cabo de Peñas</placeName> visto al Oeste</figDesc>
+          <lb/><figDesc>La tierra dentro del mismo cabo vista al oeste</figDesc>
+          <lb/><figDesc>uista al oeste</figDesc></figure>
         </p>
         
         <p>
@@ -634,14 +634,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>avía</orig>
             <reg>había</reg>
           </choice> dicho) era de que la tierra del oeste dél era 
-          <choice>
+          <lb n="24"/><choice>
             <orig>baxa</orig>
             <reg>baja</reg>
           </choice>, y la del Leste alta; <choice>
             <orig>allándonos</orig>
             <reg>hallándonos</reg>
           </choice> ya casi con su altura 
-          <lb n="24"/>con poco <choice>
+          <lb n="25"/>con poco <choice>
             <orig>cuydado</orig>
             <reg>cuidado</reg>
           </choice> que tuvimos y a muy poco andar<note n="13" resp="#IS">MN andarse,</note> se nos
@@ -890,7 +890,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>qual</orig>
             <reg>cual</reg>
           </choice> mirado al <w>susud<lb n="6"/>ueste</w> tiene la vista siguiente.
-          <lb n="7"/><figure><figDesc><placeName>El León</placeName> visto al Susudueste.</figDesc></figure>
+          <lb/><figure><figDesc><placeName>El León</placeName> visto al Susudueste.</figDesc></figure>
         </p>
         
         <p>

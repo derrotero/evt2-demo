@@ -23,45 +23,59 @@
 .diplomaticEdition .add[data-place = "margin"],
 .add[data-place = "margin-right"],
 .add[data-place = "margin-left"] {
-  width: 20% !important;
-  float: right !important;
-  padding-left: 3% !important;
-  margin-right: 3% !important;
-  text-align: left;
-  box-shadow: 10px 10px 5px grey;
-  border-radius: 5px;
-  background-color: beige !important;
+    width: 20% !important;
+    float: right !important;
+    padding-left: 3% !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 3% !important;
+    text-align: left;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5px;
+    background-color: beige !important;
+    font-size: 90%;
 }
 
 .add[data-place = "margin-right"][data-type = "integr"],
 .add[data-place = "margin-left"][data-type = "integr"] {
-  width: 20% !important;
-  float: right !important;
-  padding-left: 3% !important;
-  margin-right: 3% !important;
-  text-align: left;
-  box-shadow: 10px 10px 5px grey;
-  border-radius: 5px;
-  background-color: lightgrey !important;
+    width: 20% !important;
+    float: right !important;
+    padding-left: 3% !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 3% !important;
+    text-align: left;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5px;
+    background-color: gainsboro !important;
+    font-size: 90%;
 }
 
-.head {
-  text-align: center;
-  font-size: 120%;
+.head[data-rend="center"] {
+    text-align: center;
+    margin-right: 30% !important;
+}
+
+.head[data-type="main"] {
+    text-align: center;
+    font-size: 120%;
+}
+
+.head[data-type="sub"] {
+    text-align: center;
+    font-size: 100%;
+    font-style: italic;
 }
 
 .figDesc {
-  display: block;
-  width: 60% !important;
-  border-left: 5px solid #D2B48C;
-  background-color: #FAEBD7;
-  padding: 5px 5px 5px 8px;
-  margin-bottom: 3%;
-  margin-left: 3% !important;
-  text-align: left !important;
+    display: block;
+    width: 60% !important;
+    border-left: 5px solid tan;
+    background-color: cornsilk;
+    padding: 5px 5px 5px 8px;
+    margin-bottom: 3%;
+    margin-left: 2% !important;
+    text-align: left !important;
 }
 
-span.analogue span.analogue__text span.quote {
-  font-style: italic;
-}
 
