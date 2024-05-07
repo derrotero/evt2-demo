@@ -123,7 +123,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <orig>víase</orig>
               <reg>veíase</reg>
             </choice> entonces por el
-              <lb n="8"/>cabo en la forma siguiente mirando</unclear></del><note type="comment" resp="#IS">La remoción de esta parte de texto puede indicar que el copista estaba a punto de insertar
+              <lb n="8"/>cabo en la forma siguiente mirando</unclear></del><note n="1" type="comment" resp="#IS">La remoción de esta parte de texto puede indicar que el copista estaba a punto de insertar
               un dibujo, que no correspondía allí sino más adelante, y se corrige (o es corregido) a tiempo. En el
               <title>Discurso</title> el dibujo se encuentra al final del primer párrafo, pero el texto arranca con la descripción de
               la costa, no con el cuento de la tempestad.</note> estuvimos de esta suerte
@@ -174,7 +174,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice> la forma siguiente: era el <placeName ref="#CaboEspirituSanto">cabo
           <lb n="17"/>del Espíritu Santo</placeName>
           <lb n="18"/><figure facs="#dettaglio_01">
-            <figDesc><placeName ref="#CaboEspirituSanto">Cabo del Espíritu Santo</placeName> mirando al Norueste</figDesc>
+            <figDesc><placeName ref="#CaboEspirituSanto">Cabo del Espíritu Santo</placeName> mirando al Norueste</figDesc><note n="1" resp="#IS">MN mirado.</note>
             <graphic url="data/images/detail/cabo_espir_sant.png"></graphic>
           </figure>
 
@@ -217,7 +217,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <reg>grandísima</reg>
           </choice> 
           <lb n="7"/>canal que se le puso nombre de <placeName>S. Sebastián</placeName>, y <term>fondando</term> 
-          <lb n="8"/>por en<note type="critical" resp="#IS">MN el.</note> frente de su boca se
+          <lb n="8"/>por en<note n="2" resp="#IS">MN el.</note> frente de su boca se
             halló en 15, 17 y 18 <choice>
               <orig>brasas</orig>
               <reg>brazas</reg>
@@ -264,7 +264,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <p>
           <add type="arg" place="margin-left">Canal de S.<lb/>Sebastián</add><lb n="22"/><space/>Del
             <placeName ref="#CaboEspirituSanto">cabo del Espíritu Santo</placeName> a la <placeName>canal
-            de S. Sebastián</placeName> 13 leguas
+              de S. Sebastián</placeName> 13 leguas<note n="3" resp="#IS">MN 10.</note>
           <lb n="23"/>----- al Susueste, es esta canal muy grande y muy ancha, 
           <lb n="24"/>los montes de su boca son altos, pero más altos y <choice>
             <orig>grueços</orig>
@@ -338,7 +338,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <lb n="15"/><date when-iso="1619-01-20">20</date>. Al <choice>
             <orig>amaneçer</orig>
             <reg>amanecer</reg>
-          </choice> dimos vela con ousuduestes y oestes, y <choice>
+          </choice> dimos vela con ousuduestes<note n="4" resp="#IS">MN oessudueste.</note> y oestes, y <choice>
             <orig>avía nos</orig>
             <reg>habíanos</reg>
           </choice>
@@ -443,28 +443,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <lb n="18"/>Poco antes que el sol se <choice>
             <orig>pusiesse</orig>
             <reg>pusiese</reg>
-          </choice> nos pusimos de mar en través
+          </choice><note n="5" resp="#IS">MS pusies.</note> nos pusimos de mar en través
           <lb n="19"/>por el viento sueste <choice>
             <orig>arto</orig>
             <reg>harto</reg>
           </choice> <choice>
             <sic>frasco</sic>
             <corr>fresco</corr>
-          </choice>. Al poner del Sol <w><choice>
+          </choice><note n="6" resp="#IS">R frasco; MN fresco.</note>. Al poner del Sol <w><choice>
             <orig>Nordes<pb n="26r" facs="data/images/single/recono-26r.png"/><lb n="1"/>teava</orig>
             <reg>Nordes<pb n="26r" facs="data/images/single/recono-26r.png"/><lb n="1"/>teaba</reg>
           </choice></w> la aguja 16 g. 10mi.
         </p>
         
         <p>
-          <lb n="2"/><date when-iso="1619-01-21">21</date>. Por la mañana dimos vela con oestes que luego se <choice>
+          <lb n="2"/><supplied resp="#IS"><date when-iso="1619-01-21">21</date>.</supplied><note n="7" resp="#IS">De MN, ausente en R.</note>
+            Por la mañana dimos vela con oestes que luego se <choice>
             <orig>bolvi<lb n="3"/>eron</orig>
             <reg>volvi<lb n="3"/>eron</reg>
           </choice> nortes galernos que duraron todo el día con una mar
           <lb n="4"/>como la podía <choice>
             <orig>aver</orig>
             <reg>haber</reg>
-          </choice> en el <placeName>río de Sevilla</placeName>; fuimos corriendo la
+          </choice><note n="8" resp="#IS">MN hacer.</note> en el <placeName>río de Sevilla</placeName>; fuimos corriendo la
           <lb n="5"/>costa al sueste, y al sueste 4ª al leste. Es tierra <choice>
             <orig>mon<lb n="6"/>tuossa</orig>
             <reg>mon<lb n="6"/>tuosa</reg>
@@ -486,7 +487,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice>, dieron de altura 54g.s 4mi. <choice>
             <orig>Demorava nos</orig>
             <reg>Demorábanos</reg>
-          </choice> el <placeName>C. de S. Inés</placeName>.<add type="integr" place="margin-right">algunas 8 o 9 leguas al
+          </choice><note n="9" resp="#IS">MN demorábamos.</note> el <placeName>C. de S. Inés</placeName>.<add type="integr" place="margin-right">algunas 8 o 9 leguas al
             <lb/>Sueste 4ª al leste
             <lb/>a las quales <w>compe<lb/>ten</w> 17mi. luego
             <lb/>será la altura del
@@ -534,7 +535,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <reg>hay</reg>
           </choice> mucha 
           <lb n="22"/>la tierra adentro. Desde la <placeName>canal de S. Sebastián</placeName> se <w>em<lb n="23"/>pesaron</w>
-            a ver los montes llenos de árboles, y matas, y entre ellos
+            a ver<note n="10" resp="#IS">MS “a ver” insertado en interlínea con señal de inserción.</note> los montes llenos de
+            árboles, y matas, y entre ellos
           <lb n="24"/>algunos <choice>
             <orig>pedasos</orig>
             <reg>pedazos</reg>
@@ -577,7 +579,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </p>
         
         <p>
-          <lb n="9"/>Tomé al medio día el complemento de la altura del sol en 35g1
+          <lb n="9"/>Tomé al medio día el complemento de la altura del sol en 35g<note n="11" resp="#IS">MN ó.</note>
           <lb n="10"/>que juntos con 19g 40 mi que el sol tenía de declinación 
           <lb n="11"/>en este meridiano, dieron de altura de polo 54 grados 40mi.
           <lb n="12"/>Pasados que se <choice>
@@ -620,7 +622,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <lb n="19"/>a la del sur, <choice>
             <sic>desenchasandose</sic>
             <corr>desensanchándose</corr>
-          </choice> la una por la otra, y como las 
+          </choice><note n="12" resp="#IS">R desenchasandose MN [nota en el márgen] Así está en el original,
+            parece ha de decir desensanchándose, por desviándose o apartándose.</note> la una por la otra, y como las 
           <lb n="20"/>señas que traímos de la tierra deste estrecho (que nos las 
           <lb n="21"/>dixo un piloto <choice>
             <orig>olandés</orig>
@@ -641,7 +644,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <lb n="24"/>con poco <choice>
             <orig>cuydado</orig>
             <reg>cuidado</reg>
-          </choice> que tuvimos y a muy poco andar 1se nos
+          </choice> que tuvimos y a muy poco andar<note n="13" resp="#IS">MN andarse,</note> se nos
           
           <pb n="27r" facs="data/images/single/recono-27r.png"/>
           
@@ -716,33 +719,35 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice></placeName>.
           <lb n="16"/>Fuimos entrando por el estrecho con la proa al sur arrimados 
           <lb n="17"/>a la tierra del oeste, y con la sonda en la mano, y enfrente del
-            <placeName>cabo de S. <del>Juan</del> <choice>
+          <lb n="18"/><placeName>cabo de S. <del>Juan</del> <choice>
               <orig>Lorenço</orig>
               <reg>Lorenzo</reg>
             </choice></placeName> en 16 y 20 brazas se <choice>
               <orig>alló</orig>
               <reg>halló</reg>
-            </choice> fondo de <w>pie<lb n="18"/>dra</w>.
+            </choice> fondo de <w>pie<lb n="19"/>dra</w>.
         </p>
         
         <p>
-          <lb n="19"/>En <term>escapulando</term> el cabo hay una enseñada grande fuímonos 
-          <lb n="20"/>a ella por 10, 12 y 14 brazas, mal fondo, y <choice>
+          <lb n="20"/>En <term>escapulando</term><note n="14" resp="#IS">MN [nota en el margen] escapular
+            verbo ya desusado en nuestra marina que significaba lo mismo que montar, doblar.</note> el
+            cabo hay una enseñada grande fuímonos 
+          <lb n="21"/>a ella por 10, 12 y 14 brazas, mal fondo, y <choice>
             <orig>baxándola</orig>
             <reg>bajándola</reg>
           </choice> 
-          <lb n="21"/>toda, y no <choice>
+          <lb n="22"/>toda, y no <choice>
             <orig>allando</orig>
             <reg>hallando</reg>
-          </choice> fondo a propósito para ancorar, nos <w>me<lb n="22"/>timos</w> en una cala <choice>
+          </choice> fondo a propósito para ancorar, nos <w>me<lb n="23"/>timos</w> en una cala <choice>
             <orig>arto</orig>
             <reg>harto</reg>
           </choice> capaz, y metida entre dos montes altos 
-          <lb n="23"/><choice>
+          <lb n="24"/><choice>
             <orig>suçediónos</orig>
             <reg>sucediónos</reg>
           </choice> lo mismo, pues en fondo de 14 y 12 brazas
-          <lb n="24"/>se <choice>
+          <lb n="25"/>se <choice>
             <orig>alló</orig>
             <reg>halló</reg>
           </choice> piedra, por lo <choice>
@@ -841,7 +846,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>pinguins</orig>
             <reg>pingüinos</reg>
           </choice>
-          <lb n="15"/>y de los que estaban estaban en el agua no se veía por grande <choice>
+          <lb n="15"/>y de los que estaban estaban en el agua no se veía por<note n="15" resp="#IS">MN en.</note> grande <choice>
             <orig>espa<lb n="16"/>çio</orig>
             <reg>espa<lb n="16"/>cio</reg>
           </choice>, sino un mar negro porque lo eran ellos; <choice>
@@ -849,8 +854,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <reg>había</reg>
           </choice> un 
           <lb n="17"/>sin número de perros, o lobos marinos. Pudiérasele poner por 
-          <lb n="18"/>nombre a este estrecho el de los páxaros con alguna <w>pro
-          <lb n="19"/>piedad</w>, si no le tuviera de su primer descubridor Mayre, 
+          <lb n="18"/>nombre<note n="16" resp="#IS">MN pudiérasele, por nombre, poner.</note> a este estrecho
+            el de los páxaros con alguna <w>pro<lb n="19"/>piedad</w>, si no le tuviera de su primer descubridor Mayre, 
           <lb n="20"/>como Su <choice>
             <orig>Magestad</orig>
             <reg>Majestad</reg>
@@ -873,7 +878,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <lb n="25"/>Lessueste y las 10 al leste, <choice>
             <orig>ay</orig>
             <reg>hay</reg>
-          </choice> entre estos dos cabos una <w>her<pb n="28r" facs="data/images/single/recono-28r.png"/><lb n="1"/>mosa</w>
+          </choice> entre estos dos cabos una <w>her<pb n="28r" facs="data/images/single/recono-28r.png"/><lb n="1"/>mosa</w><note n="17" resp="#IS">MN un hermoso.</note>
             valle con algunos montes <choice>
               <orig>baxos</orig>
               <reg>bajos</reg>
@@ -892,9 +897,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <lb n="8"/>vese también de la mar <choice>
             <sic>dal</sic>
             <corr>del</corr>
-          </choice> sur aunque mudado algo de su <w>for<lb n="9"/>ma</w>, y es al que los
+          </choice><note n="18" resp="#IS">MN del.</note> sur aunque mudado algo de su <w>for<lb n="9"/>ma</w>, y es al que los
             <persName ref="#hermanosNodal"><roleName>capitanes</roleName> Nodales</persName> llaman <placeName>monte gordo</placeName> 
-          <lb n="10"/>en <date when-iso="1619-01-29">29 de enero</date><note type="comment" resp="#IS"></note>.
+          <lb n="10"/>en <date when-iso="1619-01-29">29 de enero</date><note n="2" resp="#IS" type="comment">Se trata de la
+              <title>Relación del viaje que por orden de su Mag. y acuerdo
+              del real Consejo de Indias hizieron los capitanes Bartolomé García de Nodal y Gonzalo de Nodal... al
+              descubrimiento del Estrecho nuebo de S. Vicente y reconosimiento del de Magallanes</title> recopilada por los
+              hermanos Nodal e impresa en Madrid por Fernando Correa en 1621. El privilegio es del 8 de junio 1620 y la
+              aprobación del 22 diciembre 1620. El Privilegio es el terminus post quem para la composición de la obra
+              que encontramos en R, porque entonces aprende Diego que no está autorizado a imprimir su Reconocimiento, y
+              por lo tanto empieza a componer un manuscrito en condiciones como para dedicarlo a alguna Realeza. A la
+              hora de terminarlo, Emanuele Filiberto era vicerrey de Sicilia. Felipe III nombró a Emanuele Filiberto
+              vicerrey de Sicilia el 24 de diciembre de 1621. El manuscrito R es dedicado a Emanuele Filiberto y fechado
+              1621, por lo tanto, la obra y su bella copia fueron empezadas después del Junio 1620 y terminadas entre el
+              24 y el 31 diciembre 1621. A estas alturas, Diego ya era Piloto Mayor de la Casa de Contratación de
+              Sevilla, lo que justifica un escribano seseoso trabajando a su servicio.</note>.
         </p>
         
         <p>
@@ -948,7 +965,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice> sol no se pudo juzgar sino <choice>
             <orig><foreign xml:lang="por">conieturalmente</foreign></orig>
             <reg>conjecturalmente</reg>
-          </choice><note type="comment" resp="#IS"></note> por 
+          </choice><note n="3" resp="#IS" type="comment">Esta palabra es portuguesa. No era inusual que la gente de mar
+              mezclara español y portugués. Parece que el propio Colón hablase una mezcla de estos idiomas y dialecto
+              genovés.</note> por 
           <lb n="2"/><choice>
             <orig>aver</orig>
             <reg>haber</reg>
@@ -1002,7 +1021,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice> quitando las que <choice>
             <orig>avían</orig>
             <reg>habían</reg>
-          </choice> pasado de arena, supe 
+          </choice><note n="19" resp="#IS">MN havía.</note> pasado de arena, supe 
           <lb n="12"/>a qué hora fue <choice>
             <orig>baxa</orig>
             <reg>baja</reg>
@@ -1013,7 +1032,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <lb n="13"/><choice>
             <orig>dava</orig>
             <reg>daba</reg>
-          </choice> en tanta altura con puntualidad la hora, puse
+          </choice> en tanta altura con puntualidad<note n="20" resp="#IS">MN inserta un
+            punto y coma después de la palabra “puntualidad”; se nota que no entiende muy
+            bien lo que está leyendo.</note> la hora, puse
           <lb n="14"/>aquella media hora de más a menos.
         </p>
         
@@ -1088,7 +1109,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice> buen <choice>
             <sic>tratamientos</sic>
             <corr>tratamiento</corr>
-          </choice>, si bien es verdad 
+          </choice><note n="21" resp="#IS">MN tratamiento.</note>, si bien es verdad 
           <lb n="8"/>que no se <choice>
             <orig>aseguravan</orig>
             <reg>aseguraban</reg>
@@ -1259,7 +1280,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>reconoser</orig>
             <reg>reconocer</reg>
           </choice>
-          <lb n="9"/>y <term>sondar</term> el puerto, y a <choice>
+          <lb n="9"/>y <term>sondar</term><note n="22" resp="#IS">MN fondar.</note> el puerto, y a <choice>
             <orig>reconoser</orig>
             <reg>reconocer</reg>
           </choice> si a la banda del sur deste 
@@ -1271,7 +1292,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>muchíssimos</orig>
             <reg>muchísimos</reg>
           </choice> dellos, y dando un
-          <lb n="12"/>grito se levantaron en pie con sus arcos y flechas en 
+          <lb n="12"/>grito<note n="23" resp="#IS">MN una grita.</note> se levantaron en pie con sus arcos y flechas en 
           <lb n="13"/>las manos. Sondamos toda la boca desta <choice>
             <orig>baia</orig>
             <reg>bahia</reg>
@@ -1409,7 +1430,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </choice> ni <choice>
               <orig>conosieron</orig>
               <reg>conocieron</reg>
-            </choice>, porque no se 
+            </choice><note n="24" resp="#IS">MN conocieron ni conocían.</note>, porque no se 
           <lb n="21"/>les hiço daño, a los chusos <choice>
             <orig>haçían</orig>
             <reg>hacían</reg>
@@ -1462,7 +1483,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice> muchos y <choice>
             <sic>no</sic>
             <corr>nos</corr>
-          </choice> podían 
+          </choice> podían<note n="25" resp="#IS">D podíanos; R no podían; MN no podían.</note> 
           <lb n="5"/>impedir el aguada, y también por si acaso vinieren por aquí 
           <lb n="6"/>navíos de los nuestros acudan de paz como a nosotros.
         </p>
@@ -1492,14 +1513,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>plaiuela</orig>
             <reg>playuela</reg>
           </choice> se mete 
-          <lb n="11"/>una valle muy grande, la <choice>
+          <lb n="11"/>una valle<note n="26" resp="#IS">MN un valle.</note> muy grande, la<note n="27" resp="#IS">MN el.</note> <choice>
             <orig>qual</orig>
             <reg>cual</reg>
           </choice> está <choice>
             <orig>lleníssima</orig>
             <reg>llenísima</reg>
-          </choice> de árboles 
-          <lb n="12"/>y, al norte della, otra, aunque no tan grande, del mismo modo
+          </choice><note n="28" resp="#IS">MN llenísimo.</note> de árboles 
+          <lb n="12"/>y, al norte della<note n="29" resp="#IS">MN de él.</note>, otra, aunque no tan grande, del mismo modo
           <lb n="13"/>los <choice>
             <orig>quales</orig>
             <reg>cuales</reg>
@@ -1613,7 +1634,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice> muchos embates, y los vientos más <w><choice>
             <orig>for<lb n="8"/>sossos</orig>
             <reg>for<lb n="8"/>zosos</reg>
-          </choice></w> venir por <choice>
+          </choice></w><note n="30" resp="#IS">MN forrosos corregido con forzosos.</note> venir por <choice>
             <orig>ençima</orig>
             <reg>encima</reg>
           </choice> la tierra, los <choice>
