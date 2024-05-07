@@ -3,7 +3,7 @@
    "webSite": "",
    "logoUrl": "",
    
-   "dataUrl": "data/text/discurso.xml",
+   "dataUrl": "data/text/derrotero_main.xml",
    "sourcesUrl": "",
    "analoguesUrl": "",
    "sourcesTextsUrl": "",
@@ -189,34 +189,7 @@
       }
    },
 
-   "virtualKeyboardKeys": [
-      "Amacr",
-      "Ginsmacr",
-      "Hunc",
-      "aacute",
-      "aenl",
-      "amacr",
-      "colmidcomposit",
-      "edotbl",
-      "eenl",
-      "emacr",
-      "et",
-      "ginsmacr",
-      "hrdes",
-      "imacr",
-      "inodot",
-      "inodotenl",
-      "middot",
-      "middot",
-      "oacute",
-      "omacr",
-      "sins",
-      "slong",
-      "umacr",
-      "ydot",
-      "ymacr",
-      "yrgmainstrok"
-   ],
+   "virtualKeyboardKeys": [],
 
    "imageViewerOptions": {
       "prefixUrl": "images/osd-images/",
