@@ -82,8 +82,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
         <pb n="7v" facs="data/images/single/discurso-07v.png" xml:id="D_fol_07v"/>
         
-        <head rend="center">Capit. 4. Del <placeName ref="#CaboVirgenes">Cabo de las Vírgines</placeName> al <placeName><w>es<lb/>trecho</w>
-          de Mayre</placeName></head>
+        <head rend="center">Capit. 4. Del <placeName ref="#CaboVirgenes">Cabo de las Vírgines</placeName> al <placeName ref="#EstrechoSanVicente"><w>es<lb/>trecho</w>
+          de Mayre</placeName><!-- CHECK @ref --></head>
         
         <p>
           <lb n="1"/>Del<!-- CHECK --> <placeName ref="#CaboVirgenes">Cabo de las Vírgines</placeName> al
@@ -394,10 +394,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice> mar del sur al nornordeste</figDesc></figure>
 
         <p>
-          <lb n="30"/><add type="arg" place="margin-left">C. de S. <choice>
+          <lb n="30"/><add type="arg" place="margin-left"><placeName ref="#CaboSanVicente">C. de S. <choice>
               <abbr>Vic<am>ê</am>te</abbr>
               <expan>Vice<ex>n</ex>te</expan>
-            </choice></add>Del <placeName>cabo de S. Diego</placeName> al <placeName>de S. Vicente</placeName>
+          </choice></placeName></add>Del <placeName>cabo de S. Diego</placeName> al <placeName ref="#CaboSanVicente">de S. Vicente</placeName>
             que está en la boca del <w>mis<lb n="31"/>mo</w> estrecho y desde el se <choice>
               <orig>empieça</orig>
               <reg>empieza</reg>
@@ -413,9 +413,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>baxa</orig>
             <reg>baja</reg>
           </choice> y casi llana y la costa de barreras cortadas a pique
-          <lb n="34"/>pero cubiertas de yerba verde. Llegamos al <placeName>cabo de S. <w>Vicen<lb n="35"/><add type="arg" place="margin-left">Estrecho
-            de Mayre</add>te</w></placeName>
-            <date when-iso="1619-01-22">Martes 22 de Enero</date> día de <persName>S. Vicente Mártir</persName> a las 6 horas de la 
+          <lb n="34"/>pero cubiertas de yerba verde. Llegamos al <placeName ref="#CaboSanVicente">cabo de S. <w>Vicen<lb n="35"/><add type="arg" place="margin-left">
+            <placeName ref="#EstrechoSanVicente">Estrecho de Mayre</placeName><!-- CHECK @ref --></add>te</w></placeName>
+          <date when-iso="1619-01-22">Martes 22 de Enero</date> día de <persName ref="#SanVicente">S. Vicente Mártir</persName> a las 6 horas de la 
           <lb n="36"/>tarde, año <choice>
             <orig>deel</orig>
             <reg>del</reg>
@@ -435,7 +435,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>belas</orig>
             <reg>velas</reg>
           </choice> con muy grande dificultad la podíamos romper,
-          <lb n="40"/>particularmente enfrente del <placeName>C. de S. Vicente</placeName> <choice>
+          <lb n="40"/>particularmente enfrente del <placeName ref="#CaboSanVicente">C. de S. Vicente</placeName> <choice>
             <orig>estubieron</orig>
             <reg>estuvieron</reg>
           </choice>
@@ -455,7 +455,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>quarto</orig>
             <reg>cuarto</reg>
           </choice> de 
-          <lb n="4"/>legua y menos apartados de tierra, y enfrente del cabo de S. Vicente en 16
+          <lb n="4"/>legua y menos apartados de tierra, y enfrente del <placeName ref="#CaboSanVicente">cabo de S. Vicente</placeName> en 16
           <lb n="5"/>20 braças  brazas de fondo hallamos piedra. En <term>escapulando</term> el cabo <choice>
             <orig>ay</orig>
             <reg>hay</reg>
@@ -863,7 +863,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             la tierra de la banda del oeste por el mismo <w>rum<lb n="20"/>bo</w>, y <choice>
             <orig>abrá</orig>
             <reg>habrá</reg>
-          </choice> desde el <placeName>cabo de S. Vicente</placeName> al <placeName>cabo de los tres farellones</placeName>
+            </choice> desde el <placeName ref="#CaboSanVicente">cabo de S. Vicente</placeName> al <placeName>cabo de los tres farellones</placeName>
             <w>algu<lb n="21"/>nas</w> 6 leguas norte sur. La costa de la parte del leste se corre nortesur 
           <lb n="22"/>quarta de suroestesueste que es desde el <placeName>cabo Setabense</placeName> al <placeName>de S.
             <w>Bar<lb n="23"/><add type="arg" place="margin-left">C. de los
@@ -877,7 +877,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <lb n="24"/>uno al otro 3 leguas y no grandes. <choice>
             <orig>Deel</orig>
             <reg>Del</reg>
-          </choice> <placeName>cabo de S. Vicente</placeName> al 
+          </choice> <placeName ref="#CaboSanVicente">cabo de S. Vicente</placeName> al 
           <lb n="25"/><placeName>cabo Setabense</placeName> 5 leguas leste 4ª al sueste. Tendrá <choice>
             <orig>quando</orig>
             <reg>cuando</reg>
@@ -904,7 +904,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         
         <lb/><figure><figDesc>Tierra incógnita vista al leste</figDesc>
         <figDesc>A. <placeName>Cabo de S. Bartholomé</placeName> está en la mar deel Sur</figDesc>
-        <figDesc><placeName>C. de San Vicente</placeName> visto <choice>
+          <figDesc><placeName ref="#CaboSanVicente">C. de San Vicente</placeName> visto <choice>
             <orig>deel</orig>
             <reg>del</reg>
           </choice> uno como <choice>

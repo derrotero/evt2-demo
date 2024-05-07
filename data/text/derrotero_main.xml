@@ -50,6 +50,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <p>Información extraída de <ref target="https://es.wikipedia.org/wiki/Fernando_de_Magallanes">Wikipedia</ref>.</p>
             </note>
           </person>
+          
+          <person xml:id="SanVicente">
+            <persName>
+              <forename>Vicente</forename>
+              <surname>de Huesca</surname>
+            </persName>
+            <note>
+              <p>Vicente de Huesca, conocido también como San Vicente Mártir (Huesca1​ – Valencia, c. 304), fue un
+                clérigo hispanorromano, diácono de San Valero de Zaragoza. Fue denunciado y encarcelado bajo
+                Diocleciano, por lo que la Iglesia lo venera como San Vicente Mártir.</p>
+              <p>Según la tradición, Vicente fue acusado de la predicación de la fe, a causa de un impedimento del habla
+                que afectaba al obispo Valero.</p>
+              <p>Información extraída de <ref target="https://es.wikipedia.org/wiki/Vicente_de_Huesca">Wikipedia</ref>.</p>
+            </note>
+          </person>
 
         </listPerson>
 
