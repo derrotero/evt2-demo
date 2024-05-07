@@ -38,19 +38,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <surname>de Magallanes</surname>
             </persName>
             <note><p>Fernando de Magallanes, también conocido como Hernando de Magallanes (en portugués, Fernão de
-              Magalhães, Sabrosa, Portugal, 4 de febrero de 1480-Mactán, Filipinas, 27 de abril de 1521),​ fue un
-              militar, explorador, marino y navegante portugués de linaje noble. Al servicio de Carlos I, inició en 1519
-              la expedición para alcanzar las Indias Orientales atravesando el Pacífico para abrir una ruta comercial en
-              la que descubrió el canal natural navegable que hoy recibe el nombre de estrecho de Magallanes, realizando
-              la primera navegación de origen europeo desde el océano Atlántico hasta el océano Pacífico, llamado hasta
-              entonces mar del Sur. Esta expedición, en la que Magallanes murió en 1521 en Filipinas, se convirtió en la
-              primera circunnavegación de la Tierra cuando una de sus naos, capitaneada por Juan Sebastián Elcano,
-              regresó a España en 1522 al decidir Elcano regresar navegando hacia el Oeste a través del océano Índico y
-              bordeando África.</p>
-              <p>Información extraída de <ref target="https://es.wikipedia.org/wiki/Fernando_de_Magallanes">Wikipedia</ref>.</p>
+                Magalhães, Sabrosa, Portugal, 4 de febrero de 1480-Mactán, Filipinas, 27 de abril de 1521),​ fue un
+                militar, explorador, marino y navegante portugués de linaje noble. Al servicio de Carlos I, inició en
+                1519 la expedición para alcanzar las Indias Orientales atravesando el Pacífico para abrir una ruta
+                comercial en la que descubrió el canal natural navegable que hoy recibe el nombre de estrecho de
+                Magallanes, realizando la primera navegación de origen europeo desde el océano Atlántico hasta el océano
+                Pacífico, llamado hasta entonces mar del Sur. Esta expedición, en la que Magallanes murió en 1521 en
+                Filipinas, se convirtió en la primera circunnavegación de la Tierra cuando una de sus naos, capitaneada
+                por Juan Sebastián Elcano, regresó a España en 1522 al decidir Elcano regresar navegando hacia el Oeste
+                a través del océano Índico y bordeando África.</p>
+              <p>Información extraída de <ref target="https://es.wikipedia.org/wiki/Fernando_de_Magallanes"
+                  >Wikipedia</ref>.</p>
             </note>
           </person>
-          
+
           <person xml:id="SanVicente">
             <persName>
               <forename>Vicente</forename>
@@ -62,113 +63,140 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 Diocleciano, por lo que la Iglesia lo venera como San Vicente Mártir.</p>
               <p>Según la tradición, Vicente fue acusado de la predicación de la fe, a causa de un impedimento del habla
                 que afectaba al obispo Valero.</p>
-              <p>Información extraída de <ref target="https://es.wikipedia.org/wiki/Vicente_de_Huesca">Wikipedia</ref>.</p>
+              <p>Información extraída de <ref target="https://es.wikipedia.org/wiki/Vicente_de_Huesca"
+                >Wikipedia</ref>.</p>
             </note>
           </person>
 
         </listPerson>
 
         <!-- ########## Lista dei luoghi ########## -->
-            <listPlace>
-               <head>Lista dei luoghi</head>
-              
-              <place xml:id="CaboEspirituSanto">
-                <placeName>Cabo del Espíritu Santo</placeName>
-                <placeName type="modern">Punta Dungenes</placeName>
-                <location>
-                  <geo>-52.6583, -68.6068</geo>
-                </location>
-                <note>V. <ref target="https://es.wikipedia.org/wiki/Cabo_del_Esp%C3%ADritu_Santo">Wikipedia</ref></note>
-              </place>
-              
-              <place xml:id="CaboVirgenes" source="http://www.wikidata.org/entity/Q153731">
-                <placeName>Cabo de las Vírgenes</placeName>
-                <placeName type="modern">Punta Dungenes</placeName>
-                <location>
-                  <geo>-52.2354, -68.2606</geo>
-                </location>
-                <note>V. <ref target="http://www.wikidata.org/entity/Q153731">Wikidata</ref></note>
-              </place>
-              
-              <place xml:id="CaboSanVicente">
-                <placeName>Cabo de San Vicente</placeName>
-                <placeName type="modern">Bahia Thetis</placeName>
-                <location>
-                  <geo>-54.3841, -65.1503</geo>
-                </location>
-              </place>
 
-              <place xml:id="CaboSanDiego">
-                <placeName>Cabo de San Diego</placeName>
-                <placeName type="modern">Faro de San Diego</placeName>
-                <location>
-                  <geo>54.6574, -65.1181</geo>
-                </location>
-              </place>
-              
-              <place xml:id="EstrechoSanVicente">
-                <placeName>Estrecho de San Vicente</placeName>
-                <placeName type="modern">Estrecho de Le Maire</placeName>
-                <location>
-                  <geo>-54.5000, -64.5500</geo>
-                </location>
-              </place>
-              
-              <place xml:id="PuertoBuenSuceso">
-                <placeName>Puerto del Buen Suceso</placeName>
-                <placeName type="modern">Bahia del Buen Suceso</placeName>
-                <location>
-                  <geo>-54.4759, -65.1548</geo>
-                </location>
-              </place>
-              
-              <place xml:id="CaboSanIldefonso">
-                <placeName>Cabo de San Ildefonso</placeName>
-                <placeName type="modern">Cabo de Hornos</placeName>
-                <location>
-                  <geo>55.5848, 67.1721</geo>
-                </location>
-              </place>
-              
-              <place xml:id="TierraIncognita">
-                <placeName>Tierra Incógnita</placeName>
-                <placeName type="modern">Isla de los Estados (Argentina)</placeName>
-                <location>
-                  <geo>54.4700, 64.1500</geo>
-                </location>
-              </place>
-              
-              <place xml:id="CanalSanSebastian">
-                <placeName>Canal de San Sebastián</placeName>
-                <note>Donde està?</note>
-              </place>
-              
-              <place xml:id="CaboPenas">
-                <placeName>Cabo Peñas</placeName>
-              </place>
-              
-              <place xml:id="EstrechoMagallanes">
-                <placeName key="Estrecho de Magallanes" ref="http://viaf.org/viaf/235069100/">Estrecho de Magallanes</placeName>
-              </place>
-              
-              <place xml:id="MarDelNorte">
-                <placeName key="North Sea" ref="http://www.wikidata.org/entity/Q1693">Mar del Norte</placeName>
-              </place>
-              
-              <place xml:id="TierraFuego">
-                <placeName key="Tierra del Fuego" ref="http://www.wikidata.org/entity/Q117476938">Tierra del Fuego</placeName>
-              </place>
-              
-              <place>
-                <placeName></placeName>
-                <placeName type="modern"></placeName>
-                <location>
-                  <geo></geo>
-                </location>
-              </place>
-              
-            </listPlace>
+        <listPlace>
+          <head>Lista dei luoghi</head>
+
+          <place xml:id="CaboEspirituSanto">
+            <placeName>Cabo del Espíritu Santo</placeName>
+            <placeName type="modern">Punta Dungenes</placeName>
+            <location>
+              <geo>-52.6583, -68.6068</geo>
+            </location>
+            <note>V. <ref target="https://es.wikipedia.org/wiki/Cabo_del_Esp%C3%ADritu_Santo">Wikipedia</ref></note>
+          </place>
+
+          <place source="http://www.wikidata.org/entity/Q153731" xml:id="CaboVirgenes">
+            <placeName>Cabo de las Vírgenes</placeName>
+            <placeName type="modern">Punta Dungenes</placeName>
+            <location>
+              <geo>-52.2354, -68.2606</geo>
+            </location>
+            <note>V. <ref target="http://www.wikidata.org/entity/Q153731">Wikidata</ref></note>
+          </place>
+
+          <place xml:id="CaboSanVicente">
+            <placeName>Cabo de San Vicente</placeName>
+            <placeName type="modern">Bahia Thetis</placeName>
+            <location>
+              <geo>-54.3841, -65.1503</geo>
+            </location>
+          </place>
+
+          <place xml:id="CaboSanDiego">
+            <placeName>Cabo de San Diego</placeName>
+            <placeName type="modern">Faro de San Diego</placeName>
+            <location>
+              <geo>54.6574, -65.1181</geo>
+            </location>
+          </place>
+
+          <place xml:id="EstrechoSanVicente">
+            <placeName>Estrecho de San Vicente</placeName>
+            <placeName type="modern">Estrecho de Le Maire</placeName>
+            <location>
+              <geo>-54.5000, -64.5500</geo>
+            </location>
+          </place>
+
+          <place xml:id="PuertoBuenSuceso">
+            <placeName>Puerto del Buen Suceso</placeName>
+            <placeName type="modern">Bahia del Buen Suceso</placeName>
+            <location>
+              <geo>-54.4759, -65.1548</geo>
+            </location>
+          </place>
+
+          <place xml:id="CaboSanIldefonso">
+            <placeName>Cabo de San Ildefonso</placeName>
+            <placeName type="modern">Cabo de Hornos</placeName>
+            <location>
+              <geo>55.5848, 67.1721</geo>
+            </location>
+          </place>
+
+          <place xml:id="TierraIncognita">
+            <placeName>Tierra Incógnita</placeName>
+            <placeName type="modern">Isla de los Estados (Argentina)</placeName>
+            <location>
+              <geo>54.4700, 64.1500</geo>
+            </location>
+          </place>
+
+          <place xml:id="CanalSanSebastian">
+            <placeName>Canal de San Sebastián</placeName>
+            <note>Donde està?</note>
+          </place>
+
+          <place xml:id="CaboPenas">
+            <placeName>Cabo Peñas</placeName>
+          </place>
+
+          <place xml:id="EstrechoMagallanes">
+            <placeName key="Estrecho de Magallanes" ref="http://viaf.org/viaf/235069100/">Estrecho de
+              Magallanes</placeName>
+          </place>
+
+          <place xml:id="MarDelNorte">
+            <placeName key="North Sea" ref="http://www.wikidata.org/entity/Q1693">Mar del Norte</placeName>
+          </place>
+
+          <place xml:id="TierraFuego">
+            <placeName key="Tierra del Fuego" ref="http://www.wikidata.org/entity/Q117476938">Tierra del
+              Fuego</placeName>
+          </place>
+
+          <place>
+            <placeName/>
+            <placeName type="modern"/>
+            <location>
+              <geo/>
+            </location>
+          </place>
+
+        </listPlace>
         
+        <listOrg>
+          
+          <org type="family" xml:id="hermanosNodal">
+            <roleName>capitanes</roleName>
+          </org>
+          
+        </listOrg>
+        
+        <msDesc xml:id="discurso_msdesc">
+          <msIdentifier>
+            <settlement>Madrid, España</settlement>
+            <repository>Biblioteca Nacional de España</repository>
+            <msName>MSS/3019</msName>
+          </msIdentifier>
+        </msDesc>
+
+        <msDesc xml:id="reconocimiento_msdesc">
+          <msIdentifier>
+            <settlement>Madrid, España</settlement>
+            <repository>Biblioteca Nacional de España</repository>
+            <msName>MSS/3190</msName>
+          </msIdentifier>
+        </msDesc>
 
       </sourceDesc>
     </fileDesc>

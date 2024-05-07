@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </publicationStmt>
       <sourceDesc>
           
-        <msDesc>
+        <msDesc xml:id="reconocimiento_msdesc">
           <msIdentifier>
             <settlement>Madrid, España</settlement>
             <repository>Biblioteca Nacional de España</repository>
@@ -62,6 +62,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
     </surface>
   </facsimile>
+  
+  <!-- ###################################  TODO ################################### -->
+  
+  <!-- 
+    
+    - controllare che punta di S. Diego = cabo di S. Diego
+    - controllare che estrecho de Mayre = estrecho de san Vicente (anche nel Discurso)
+    - controllare tutti i nomi di persona per collegarli alla lista
+    - marcare le caravelle (anche nel Discurso)
+  
+  -->
+
 
   <text n="Relación del reconocimiento" xml:id="reconocimiento">
     <body>
@@ -74,8 +86,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
         <pb n="24r" facs="data/images/single/recono-24r.png"/>
         
-        <head rend="center">Cap. 4. del <placeName>estrecho de Magallanes</placeName> al <placeName>estrecho
-          <lb/>de San Vicente</placeName></head>
+        <head rend="center">Cap. 4. del <placeName ref="#EstrechoMagallanes">estrecho de Magallanes</placeName>
+          al <placeName ref="#EstrechoSanVicente">estrecho<lb/>de San Vicente</placeName></head>
 
           <lb/>
           <lb/>
@@ -159,10 +171,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice> <choice>
             <orig>haçía</orig>
             <reg>hacía</reg>
-          </choice> la forma siguiente: era el <placeName>cabo
+          </choice> la forma siguiente: era el <placeName ref="#CaboEspirituSanto">cabo
           <lb n="17"/>del Espíritu Santo</placeName>
           <lb n="18"/><figure facs="#dettaglio_01">
-            <figDesc><placeName>Cabo del Espíritu Santo</placeName> mirando al Norueste</figDesc>
+            <figDesc><placeName ref="#CaboEspirituSanto">Cabo del Espíritu Santo</placeName> mirando al Norueste</figDesc>
             <graphic url="data/images/detail/cabo_espir_sant.png"></graphic>
           </figure>
 
@@ -242,15 +254,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </p>
         
         <p>
-          <add type="arg" place="margin-left">C. el Spiritu<lb/>Santo.</add><lb n="18"/>Del <placeName>cabo de las Vírgenes</placeName> al <placeName>cabo del
-            Espíritu Santo</placeName> 7 leguas al 
+          <add type="arg" place="margin-left">C. el Spiritu<lb/>Santo.</add><lb n="18"/>Del <placeName ref="#CaboVirgenes">cabo de las Vírgenes</placeName>
+          al <placeName ref="#CaboEspirituSanto">cabo del Espíritu Santo</placeName> 7 leguas al 
           <lb n="19"/>sur, entre estos dos cabos está la boca del <placeName>estrecho de <w>Maga<lb n="20"/>llanes</w></placeName>
-            de la <placeName>mar del norte</placeName>, está el <placeName>cabo del Espíritu Santo</placeName> en
-          <lb n="21"/>la <placeName>Tierra del Fuego</placeName>.
+            de la <placeName>mar del norte</placeName>, está el <placeName ref="#CaboEspirituSanto">cabo del Espíritu Santo</placeName> en
+          <lb n="21"/>la <placeName ref="#TierraIncognita">Tierra del Fuego</placeName>.
         </p>
         
         <p>
-          <add type="arg" place="margin-left">Canal de S.<lb/>Sebastián</add><lb n="22"/><space/>Del <placeName>cabo del Espíritu Santo</placeName> a la <placeName>canal
+          <add type="arg" place="margin-left">Canal de S.<lb/>Sebastián</add><lb n="22"/><space/>Del
+            <placeName ref="#CaboEspirituSanto">cabo del Espíritu Santo</placeName> a la <placeName>canal
             de S. Sebastián</placeName> 13 leguas
           <lb n="23"/>----- al Susueste, es esta canal muy grande y muy ancha, 
           <lb n="24"/>los montes de su boca son altos, pero más altos y <choice>
@@ -299,7 +312,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <lb n="8"/>mos</orig>
             <reg>estába-
               <lb n="8"/>mos</reg>
-          </choice></w> al cabo de Peñas al sur 4ª al sueste, y toda esta costa 
+          </choice></w> al <placeName ref="#CaboPenas">cabo de Peñas</placeName> al sur 4ª al sueste, y toda esta costa 
           <lb n="9"/>es de barreras pardas cortadas a pique, y viniendo la <choice>
             <orig>buelta</orig>
             <reg>vuelta</reg>
@@ -331,13 +344,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice>
           <lb n="16"/>echado el viento tanto a la mar que no se veían sino los montes 
           <lb n="17"/>muy altos; tomamos la derrota del sur en busca de la tierra 
-          <lb n="18"/>y la última que se veía era el <placeName>cabo de Peñas</placeName> al sueste 
+          <lb n="18"/>y la última que se veía era el <placeName ref="#CaboPenas">cabo de Peñas</placeName> al sueste 
           <lb n="19"/>en la forma dicha.
         </p>
         
         <p>
-          <lb n="20"/>De la <placeName>canal de S. Sebastián</placeName> al <placeName>cabo de Peñas</placeName>
-            5 leguas al <add type="arg" place="margin-right">C. de Peñas</add>
+          <lb n="20"/>De la <placeName>canal de S. Sebastián</placeName> al <placeName ref="#CaboPenas">cabo de Peñas</placeName>
+            5 leguas al <add type="arg" place="margin-right"><placeName ref="#CaboPenas">C. de Peñas</placeName></add>
           <lb n="21"/>Sueeste, 4ª al Sur, ay entre los dos una pequeña ensenada, 
           <lb n="22"/>y en la mitad del camino <choice>
             <orig>serca</orig>
@@ -389,9 +402,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </p>
         
         <p>
-          <lb n="6"/>La tierra del <placeName>cabo de Peñas</placeName> y la que está al norueste dél, vista
+          <lb n="6"/>La tierra del <placeName ref="#CaboPenas">cabo de Peñas</placeName> y la que está al norueste dél, vista
           <lb n="7"/>al oeste y oessudueste, tiene la forma siguiente.
-          <lb n="8"/><figure><figDesc>Cabo de Peñas visto al Oeste</figDesc></figure>
+          <lb n="8"/><figure><figDesc><placeName ref="#CaboPenas">Cabo de Peñas</placeName> visto al Oeste</figDesc></figure>
           <lb n="9"/><figure><figDesc>La tierra dentro del mismo cabo vista al oeste</figDesc></figure>
           <lb n="10"/><figure><figDesc>uista al oeste</figDesc></figure>
         </p>
@@ -404,7 +417,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>differentes</orig>
             <reg>diferentes</reg>
           </choice> vientos 
-          <lb n="12"/>y algunas horas de calma, y demorando <placeName>cabo de Peñas</placeName>
+          <lb n="12"/>y algunas horas de calma, y demorando <placeName ref="#CaboPenas">cabo de Peñas</placeName>
             al <w>oes<lb n="13"/>norueste</w> parecía como una <choice>
             <orig>cabesa</orig>
             <reg>cabeza</reg>
@@ -501,7 +514,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </p>
         
         <p>
-          <add type="arg" place="margin-left">De S. Inés</add><lb n="16"/>Del <placeName>cabo de Peñas</placeName> al <placeName>cabo de S. Inés</placeName> que está en 54 g. 21
+          <add type="arg" place="margin-left">De S. Inés</add><lb n="16"/>Del <placeName ref="#CaboPenas">cabo de Peñas</placeName>
+            al <placeName>cabo de S. Inés</placeName> que está en 54 g. 21
           <lb n="17"/>minutos 21 leguas al sueste, 4ª al leste, <choice>
             <orig>ay</orig>
             <reg>hay</reg>
@@ -587,7 +601,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice>,<add type="integr" place="margin-left">a
             <lb/>quien se le dio
             <lb/>nombre de punta
-            <lb/>de <placeName>S. Diego</placeName></add> después 
+            <lb/>de <placeName ref="#CaboSanDiego">S. Diego</placeName><!-- CHECK --></add> después 
           <lb n="16"/>de la <choice>
             <orig>qual</orig>
             <reg>cual</reg>
@@ -631,8 +645,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           
           <pb n="27r" facs="data/images/single/recono-27r.png"/>
           
-          <lb n="1"/>descubrió la boca del <placeName>estrecho de Mayre</placeName> que después se
-          <lb n="2"/>le mudó el nombre en el de S. Vicente, por <choice>
+          <lb n="1"/>descubrió la boca del <placeName ref="#EstrechoSanVicente">estrecho de Mayre</placeName> que después se
+          <lb n="2"/>le mudó el nombre en el de <persName ref="#SanVicente">S. Vicente</persName><!-- CHECK -->, por <choice>
             <orig>aver</orig>
             <reg>haber</reg>
           </choice> llegado 
@@ -662,16 +676,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <orig>Lorenço</orig>
               <reg>Lorenzo</reg>
             </choice></placeName>
-            <lb/>por ser hermano de S.
+            <lb/>por ser hermano de <persName ref="#SanVicente">S.<!-- CHECK -->
             <choice>
               <orig>Viçente</orig>
               <reg>Vicente</reg>
-            </choice> y español,</add> cosa 
-          <lb n="7"/>de 3, o 4 leguas al Lessueste de la <placeName>punta de S. Diego</placeName>, 
+            </choice></persName> y español,</add> cosa 
+          <lb n="7"/>de 3, o 4 leguas al Lessueste de la <placeName ref="#CaboSanDiego">punta de S. Diego</placeName><!-- CHECK -->, 
           <lb n="8"/>al <choice>
             <orig>qual</orig>
             <reg>cual</reg>
-          </choice> llegamos <date when-iso="1619-01-22">Martes 22 de Enero</date> día de S. Vicente 
+          </choice> llegamos <date when-iso="1619-01-22">Martes 22 de Enero</date> día de <persName ref="#SanVicente">S. Vicente</persName> 
           <lb n="9"/>mártir a las 6 horas de la tarde, poniéndose el sol este día 
           <lb n="10"/>a más de las 8 <del>de la tarde</del> horas 3mi. año de nuestra salud de 
           <lb n="11"/><date when-iso="1619">1619</date>.
@@ -702,13 +716,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice></placeName>.
           <lb n="16"/>Fuimos entrando por el estrecho con la proa al sur arrimados 
           <lb n="17"/>a la tierra del oeste, y con la sonda en la mano, y enfrente del
-          <placeName>cabo de S. <del>Juan</del> <choice>
-            <orig>Lorenço</orig>
-            <reg>Lorenzo</reg>
-          </choice></placeName> en 16 y 20 brazas se <choice>
-            <orig>alló</orig>
-            <reg>halló</reg>
-          </choice> fondo de <w>pie<lb n="18"/>dra</w>.
+            <placeName>cabo de S. <del>Juan</del> <choice>
+              <orig>Lorenço</orig>
+              <reg>Lorenzo</reg>
+            </choice></placeName> en 16 y 20 brazas se <choice>
+              <orig>alló</orig>
+              <reg>halló</reg>
+            </choice> fondo de <w>pie<lb n="18"/>dra</w>.
         </p>
         
         <p>
@@ -847,13 +861,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>qual</orig>
             <reg>cual</reg>
           </choice>
-          <lb n="21"/>nombre solo se pudo trocar por el<!-- cabo? --> <placeName>de S. Vicente</placeName>, y <w>lle
+          <lb n="21"/>nombre solo se pudo trocar por el<!-- cabo? --> <placeName ref="#CaboSanVicente">de S. Vicente</placeName>, y <w>lle
           <lb n="22"/>gó</w> <persName>Jacobo de Mayre</persName> a descubrir este estrecho en 24 de 
           <lb n="23"/>enero de 1616 por cuya relación relación se vino a él.
         </p>
         
         <p>
-          <add type="arg" place="margin-left">Punta de<lb/>S. Diego</add><lb n="24"/>Del <del>cabo p.ta</del> <placeName>cabo de S. Inés</placeName> a la <placeName>Punta de S. Diego</placeName> 30 leguas, las 20 al
+          <add type="arg" place="margin-left"><placeName ref="#CaboSanDiego">Punta de<lb/>S. Diego</placeName></add><lb n="24"/>Del
+            <del>cabo p.ta</del> <placeName>cabo de S. Inés</placeName> a la <placeName ref="#CaboSanDiego">Punta de S. Diego</placeName>
+            30 leguas, las 20 al
           <lb n="25"/>Lessueste y las 10 al leste, <choice>
             <orig>ay</orig>
             <reg>hay</reg>
@@ -877,12 +893,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <sic>dal</sic>
             <corr>del</corr>
           </choice> sur aunque mudado algo de su <w>for<lb n="9"/>ma</w>, y es al que los
-            <persName><roleName>capitanes</roleName> Nodales</persName> llaman <placeName>monte gordo</placeName> 
+            <persName ref="#hermanosNodal"><roleName>capitanes</roleName> Nodales</persName> llaman <placeName>monte gordo</placeName> 
           <lb n="10"/>en <date when-iso="1619-01-29">29 de enero</date><note type="comment" resp="#IS"></note>.
         </p>
         
         <p>
-          <lb n="11"/>De la <placeName>punta de S. Diego</placeName> al <placeName>cabo de S. <del>Juan Anastasio</del> <choice>
+          <lb n="11"/>De la <placeName ref="#CaboSanDiego">punta de S. Diego</placeName> al <placeName>cabo de S. <del>Juan Anastasio</del> <choice>
             <orig>Lorenço</orig>
             <reg>Lorenzo</reg>
           </choice></placeName>
@@ -1452,7 +1468,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </p>
         
         <p>
-          <lb n="7"/>Es el <placeName>Puerto del Buen <choice>
+          <lb n="7"/>Es el <placeName ref="#PuertoBuenSuceso">Puerto del Buen <choice>
             <orig>Sucesso</orig>
             <reg>Suceso</reg>
           </choice></placeName> bueno, <choice>
@@ -1466,8 +1482,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>plaiuela</orig>
             <reg>playuela</reg>
           </choice> norte sur, está entre dos montes <add type="arg" place="margin-right">Descripçión
-            <lb/>Del Puerto del
-            <lb/>Buen Sucesso</add>
+            <lb/>Del <placeName ref="#PuertoBuenSuceso">Puerto del
+            <lb/>Buen Sucesso</placeName></add>
           <lb n="9"/>muy altos, y muy llenos de árboles, que muchos dellos 
           <lb n="10"/>por su <choice>
             <orig>antiguidad</orig>

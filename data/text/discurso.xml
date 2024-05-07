@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </publicationStmt>
       <sourceDesc>
 
-        <msDesc>
+        <msDesc xml:id="discurso_msdesc">
           <msIdentifier>
             <settlement>Madrid, España</settlement>
             <repository>Biblioteca Nacional de España</repository>
@@ -72,7 +72,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <lb/>descubiertas con el fondo de todos los puertos, con las bayas en que an comienzo, con las bariaciones de la
         <lb/>aguja que durante la navegación se observaron y a que hora empieçan las mareas en día de luna nueva con los
         <lb/>puertos y cabos principales y [a] que parte deel mundo corren las aguas con las hinchantes y baziantes de el
-        <lb/>agua, y las longitudines y latitudines de tonos los lugares. Por Diego Remírez de Arellano, natural de
         <lb/><add place="above">Xatiba en</add><!-- CHECK decidere se aggiungerlo --> Valencia</head>
     </front>
 
@@ -198,8 +197,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <lb n="3"/>punta de río con 5, 6, 7 <choice>
             <orig>braças</orig>
             <reg>brazas</reg>
-          </choice> fondo de piedra. De la punta de<add type="arg" place="margin-right">C. de Peñas</add>
-          <lb n="4"/>el río al <placeName>cabo de Peñas</placeName> 4 leguas al sueste <choice>
+          </choice> fondo de piedra. De la punta de<add type="arg" place="margin-right"><placeName ref="#CaboPenas">C. de Peñas</placeName></add>
+          <lb n="4"/>el río al <placeName ref="#CaboPenas">cabo de Peñas</placeName> 4 leguas al sueste <choice>
             <orig>quarta</orig>
             <reg>cuarta</reg>
           </choice> al sur. <choice>
@@ -236,7 +235,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>bezes</orig>
             <reg>veces</reg>
           </choice> juntándose dos hacen como un cuchillo. 
-          <lb n="15"/>Cabo de Peñas mirado al susueste tiene la forma siguiente, y 
+          <lb n="15"/><placeName ref="#CaboPenas">Cabo de Peñas</placeName> mirado al susueste tiene la forma siguiente, y 
           <lb n="16"/>viniendo a buscar esta tierra por su altura que es la de 53g 2/3 se 
           <lb n="17"/><choice>
             <orig>berán</orig>
@@ -244,12 +243,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </choice> las formas de tierra siguientes.
         </p>
         
-        <lb/><figure><figDesc><placeName>C. de Peñas</placeName> vista al Oeste</figDesc></figure>
+        <lb/><figure><figDesc><placeName ref="#CaboPenas">C. de Peñas</placeName> vista al Oeste</figDesc></figure>
         <figure><figDesc>Vista al Oeste</figDesc></figure>
         <figure><figDesc>Visto al Oeste</figDesc></figure>
         
         <p>
-          <lb n="21"/>Del <placeName>cabo de Peñas</placeName> al de <placeName>S. Inés</placeName>
+          <lb n="21"/>Del <placeName ref="#CaboPenas">cabo de Peñas</placeName> al de <placeName>S. Inés</placeName>
             que está en 54g 15m 21 leg. ¼ al <w>susu<add type="arg" place="margin-right">C. de S. Ynés</add><lb n="22"/>este</w> <choice>
             <orig>quarta</orig>
             <reg>cuarta</reg>
@@ -283,7 +282,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <reg>del</reg>
           </choice> horizonte, y sobre si lo eran o no se hubieron
           <lb n="30"/>notables porfías. Dura esta cordillera de montes casi hasta el <placeName><w>es<lb n="31"/>trecho</w>
-            de Mayre</placeName>. A 12, 0 14 leguas del <placeName>C. de Peñas</placeName> se ben
+            de Mayre</placeName>. A 12, 0 14 leguas del <placeName ref="#CaboPenas">C. de Peñas</placeName> se ben
           <lb n="32"/>en la costa un <choice>
             <orig>arrazife</orig>
             <reg>arrecife</reg>
@@ -336,7 +335,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </p>
         
         <p>
-          <lb n="14"/><add type="arg" place="margin-left">C. de S.<lb/><del>Vicente</del> Diego</add>Del valle al <placeName>cabo de S. <del>Vicente</del>Diego</placeName> quatro leguas al leste. Es este <choice>
+          <lb n="14"/><add type="arg" place="margin-left"><placeName ref="#CaboSanDiego">C. de S.<lb/><del>Vicente</del> Diego</placeName></add>Del
+            valle al <placeName ref="#CaboSanDiego">cabo de S. <del>Vicente</del>Diego</placeName> quatro leguas al leste. Es este <choice>
             <orig>ba<lb n="15"/>lle</orig>
             <reg>va<lb n="15"/>lle</reg>
           </choice> tierra más <choice>
@@ -349,7 +349,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </p>
         
         <p>
-          <lb n="16"/>Y entre ellas mucho bosque, mato, y arboledo. El <placeName>cabo de S. Diego</placeName>
+          <lb n="16"/>Y entre ellas mucho bosque, mato, y arboledo. El <placeName ref="#CaboSanDiego">cabo de S. Diego</placeName>
             <note type="comment" resp="#IS">El cambio de Vicente a Diego aquí se hace a posteriori, pero cuando el mismo cabo se nombra
               por segunda vez, ya aparece directamente como Diego. Probablemente el texto se volvió a leer
               enseguida.</note>
@@ -397,7 +397,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <lb n="30"/><add type="arg" place="margin-left"><placeName ref="#CaboSanVicente">C. de S. <choice>
               <abbr>Vic<am>ê</am>te</abbr>
               <expan>Vice<ex>n</ex>te</expan>
-          </choice></placeName></add>Del <placeName>cabo de S. Diego</placeName> al <placeName ref="#CaboSanVicente">de S. Vicente</placeName>
+          </choice></placeName></add>Del <placeName ref="#CaboSanDiego">cabo de S. Diego</placeName> al
+            <placeName ref="#CaboSanVicente">de S. Vicente</placeName>
             que está en la boca del <w>mis<lb n="31"/>mo</w> estrecho y desde el se <choice>
               <orig>empieça</orig>
               <reg>empieza</reg>
@@ -534,11 +535,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <orig>aberle</orig>
             <reg>haberle</reg>
           </choice> descubierto 
-          <lb n="27"/><add type="arg" place="margin-left">Puerto del
+          <lb n="27"/><add type="arg" place="margin-left"><placeName ref="#PuertoBuenSuceso">Puerto del
              <choice>
                <abbr>bu<am>ê</am></abbr>
                <expan>bue<ex>n</ex></expan>
-             </choice> Suceso</add><choice>
+             </choice> Suceso</placeName></add><choice>
             <abbr>Nra S<am>.</am>ra</abbr>
             <expan>N<ex>uest</ex>ra S<ex>eño</ex>ra</expan>
           </choice> del Buen Suceso por <choice>
