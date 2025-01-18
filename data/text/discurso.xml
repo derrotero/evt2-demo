@@ -63,21 +63,44 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <text n="Discurso y derrotero" xml:id="discurso">
     
     <front>
-      <head type="main">Discurso y derrotero del viaje a los estrechos de <persName ref="#FdeMagallanes">Magallanes</persName> y Mayre</head>
-      <head rend="center" type="sub">y arrumbamiento de las costas que en esta navegación se anduvieron, con los
-        <lb/>debuxos, perspectivas y conocimiento de las tierras con los <choice>
-          <orig>arrazife</orig>
-          <reg>arrecifes</reg>
-        </choice>, baxas, lajas, y yslas nuevamente
-        <lb/>descubiertas con el fondo de todos los puertos, con las bayas en que an comienzo, con las bariaciones de la
-        <lb/>aguja que durante la navegación se observaron y a que hora empieçan las mareas en día de luna nueva con los
-        <lb/>puertos y cabos principales y [a] que parte deel mundo corren las aguas con las hinchantes y baziantes de el
-        <lb/><add place="above">Xatiba en</add><!-- CHECK decidere se aggiungerlo --> Valencia</head>
     </front>
 
     <body>
+
+      <pb n="1r" facs="data/images/single/discurso-01r.png" xml:id="D_fol_01r"/>
+
+      <div type="argument">
+        <head type="main">Discurso y derrotero del viaje a los estrechos de <persName ref="#FdeMagallanes">Magallanes</persName> y Mayre</head>
+        <head rend="center" type="sub">y arrumbamiento de las costas que en esta navegación se anduvieron, con los
+          <lb/>debuxos, perspectivas y conocimiento de las tierras con los <choice>
+            <orig>arrazife</orig>
+            <reg>arrecifes</reg>
+          </choice>, baxas, lajas, y yslas nuevamente
+          <lb/>descubiertas con el fondo de todos los puertos, con las bayas en que an comienzo, con las bariaciones de la
+          <lb/>aguja que durante la navegación se observaron y a que hora empieçan las mareas en día de luna nueva con los
+          <lb/>puertos y cabos principales y [a] que parte deel mundo corren las aguas con las hinchantes y baziantes de el
+          <lb/><add place="above">Xatiba en</add><!-- CHECK decidere se aggiungerlo --> Valencia</head>
+      </div>
+
+      <div type="chapter" n="1">
+
+        <head rend="align-right">C. primero de España ... </head>
+
+        <p></p>
+
+        <p></p>
+
+        <p></p>
+
+        <p></p>
+
+        <p></p>
+
+        <p></p>
+
+      </div>
       
-      <div>
+      <div type="chapter" n="4">
 
         <pb n="7v" facs="data/images/single/discurso-07v.png" xml:id="D_fol_07v"/>
         
