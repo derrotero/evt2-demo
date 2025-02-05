@@ -84,19 +84,540 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
       <div type="chapter" n="1">
 
-        <head rend="align-right">C. primero de España ... </head>
+        <head rend="align-right">C. primero: de España a Rio de Janero</head>
 
-        <p></p>
+        <p>
+          <lb/>Salimos de la ciudad de <placeName>Lisboa</placeName> y paraje de Belem Martes 27 de 
+          <lb/>Septiembre día de S. Agustín año del Señor de 1618 a las 3 horas ¼ 
+          <lb/>de la tarde, y en escapulando los cachopos se tomó la derrota
+          <lb/>deel Sudoeste con vientos [sur]suroestes muy frescos. A 29 al me-
+          <lb/>diodía se tomó la derrota deel sudoeste <choice><orig>quarta</orig><reg>cuarta</reg></choice> del oeste. Y Do-
+          <lb/>mingo 30 a las 8 y ½ de la mañana dimos vista a la <choice><orig>ysla</orig><reg>isla</reg></choice> de <placeName>Puerto
+          <lb/>Santo</placeName> que está en 33 g. Demorándonos al sur <choice><orig>quarta</orig><reg>cuarta</reg></choice> al sudoeste vi-
+          <lb/>mos tan solamente tres <choice><orig>montezillos</orig><reg>montecillos</reg></choice> redondos y el mayor de todos
+          <lb/>ellos era el de en medio y el más pequeño el de la banda <choice><orig>deel</orig><reg>del</reg></choice> oeste
+          <lb/>cuya forma era como la de un pan de <choice><orig>açúcar</orig><reg>azúcar</reg></choice>. Desde esta hora se <choice>
+            <orig>em<lb/>peçó</orig>
+            <reg>em<!-- CHECK add numbered <lb/> -->pezó</reg></choice> a gobernar al oessudoeste. Este mismo día a las <choice><orig>doze</orig><reg>doce</reg></choice> dimos
+          <lb/>fe de la <choice><orig>ysla</orig><reg>isla</reg></choice> de la <placeName>Madera</placeName> demorándonos al sur <choice><orig>quarta</orig><reg>cuarta</reg></choice> al sudoeste
+          <lb/>y desde <placeName>Lisboa</placeName> a la <choice><orig>ysla</orig><reg>isla</reg></choice> de la madera se gastaron tres días naturales
+          <lb/>a que los Portugueses llaman Sangraduras y nu.os/nuestros Castellanos Sin-
+          <lb/>gladuras. A cosa de las 8 de la noche siendo el viento Nordeste
+          <lb/>se mudó la derrota al Susudoeste.
+        </p>
+        
+        <p>
+          <lb/>A 2 de Oct.e/octubre al amanecer de tomó la derrota deel Sur <choice><orig>quarta</orig><reg>cuarta</reg></choice> al
+          <lb/>Sudoeste con vientos Lesnordestes. A 3 a las 8 ho./horas y ½ de la maña-
+          <lb/>na se <choice><orig>empeçó</orig><reg>empezó</reg></choice> a gobernar al sur con vientos lestes frescos, y al me-
+          <lb/>diodía dimos vista a la <choice><orig>ysla</orig><reg>isla</reg></choice> de <placeName>la Palma</placeName> al Sueste 4 al leste. En
+          <lb/>dando fe de <placeName>La Palma</placeName> se <choice><orig>empeçó</orig><reg>empezó</reg></choice> a gobernar al Sur y a sus <choice><orig>quartas</orig><reg>cuartas</reg></choice> 
+          <lb/>colaterales según lo pedía la ocasión y daba lugar el viento. <choice>
+            <orig>Enpe<lb/>çaron</orig>
+            <reg>Empe<!-- CHECK add numbered <lb/> -->zaron</reg></choice> nos las <note type="gloss" target="#terboada">terboadas</note> de <placeName>Guine</placeName> en 12 grados de altura <choice>
+              <orig>dizien<lb/>donos</orig>
+              <reg>dicién<!-- CHECK add numbered <lb/> -->donos</reg></choice> los Pilotos Portugueses que acostumbraban a <choice><orig>empeçar</orig><reg>empezar</reg></choice> en 7 
+          <lb/>grados al norte y acabar en 4 gra./grados al sur. Qué son estas ter-
+          <lb/>boadas lo diré en el derrotero adonde me remito. Lo que en ellas se
+          <lb/><choice><orig>hazía</orig><reg>hacía</reg></choice> era tomar las velas quando el viento con que venían era
+          <lb/>escaso, y quando venían con viento largo se <choice><orig>gozava</orig><reg>gozaba</reg></choice> de la <choice><orig>occasión</orig><reg>ocasión</reg></choice>
+          <lb/>dando velas según las <choice><orig>fuerças</orig><reg>fuerzas</reg></choice> de la terboada. <choice><orig>Çerca</orig><reg>Cerca</reg></choice> de la líne-
+          <lb/>a de la banda deel norte <choice><orig>tubimos</orig><reg>tuvimos</reg></choice> algunos contrastes de vientos,
+          <!-- CHECK come marcare parola di "collegamento" <fw>? -->
 
-        <p></p>
+      <pb n="1v" facs="data/images/single/discurso-01v.png" xml:id="D_fol_01v"/>
 
-        <p></p>
+          <lb/>calmas excesivas de calor, y tiempos bonañcibles/bonancibles. Dimos algunas
+          <lb/>bordas al oessudoeste, y al lessueste, y alargando el viento se <choice><orig>yva</orig><reg>iba</reg></choice>
+          <lb/>gobernando desde el sur hasta altura de 21 g./grados
+          <lb/>desde la <choice><orig>qual</orig><reg>cual</reg></choice> se determinó de gobernar al oessudoeste.
+        </p>
+        
+        <p>
+          <lb/>A 13 de N.e/Noviembre en altura de 22 g./grados ½ en la noche nos pusimos de mar
+          <lb/>en <choice><orig>trabés</orig><reg>través</reg></choice> y sondando 30 <choice><orig>braças</orig><reg>brazas</reg></choice> <choice><orig>dixeron</orig><reg>dijieron</reg></choice> los pilotos que nos hallábamos
+          <lb/>sobre el parçel o <placeName>banco de S. Thomé</placeName>. Sale este parçel de S. Thomé
+          <lb/>15 leguasa la mar desde el cabo y se corre con el noreste sudoeste
+          <lb/>y con fondo de 80 hasta 90 <choice><orig>braças</orig><reg>brazas</reg></choice> <choice><orig>estava</orig><reg>estaba</reg></choice> 12 leguas de tierra
+          <lb/><!-- CHECK <del> -->y con 25 y 30 cosa de 6 leguas, y por ser tierra <choice><orig>baxa</orig><reg>baja</reg></choice> la <choice><orig>deel</orig><reg>del</reg></choice>
+          <lb/>cabo no se verá en estando sobre el parçel se acostumbra gober-
+          <lb/>nar a susudoeste <choice><orig>dexando</orig><reg>dejando</reg></choice> el cabo por estibor <!-- CHECK errore per estríbor --> y se pasa a lo largo de
+          <lb/>las <choice><orig>yslas</orig><reg>islas</reg></choice> de <placeName>Ancora</placeName>. A 14 del mismo a las 9 de la mañana
+          <lb/>dimos fe de tierra que más demoraba al Noroeste 4 deel Oeste y se
+          <lb/>reconoció por un peñasco alto, gordo y negro que parece encima
+          <lb/>de un monte bien alto al qual peñasco llaman <placeName>el Frayle</placeName>, y tenía la
+          <lb/>perspectiva y forma siguiente mirado al oesnoroeste, y al norno-
+          <lb/>roeste.
+        </p>
 
-        <p></p>
+        <figure><!-- CHECK figura 1 -->
+          <figDesc>El Frayle mirado al Oesnoroeste</figDesc>
+        </figure>
+        <figure><!-- CHECK figura 2 -->
+          <figDesc>El Frayle mirado al nornoroeste</figDesc>
+        </figure>
+          
+        <p>
+          <lb/>Reconocimos las <choice><orig>yslas</orig><reg>islas</reg></choice> de <placeName>Ancora</placeName> que son tres, y al sur <choice><orig>deellas</orig><reg>de ellas</reg></choice>
+          <lb/>la <choice><orig>Ysla</orig><reg>Isla</reg></choice> de <placeName>S. Anna</placeName> de la qual <choice><orig>dixeron</orig><reg>dijieron</reg></choice> los Pilotos Portugueses
+          <lb/>qe habían estado en ella que tenía un buen puerto a la banda de
+          <lb/>el Noroeste con fondo de 14, y 15 <choice><orig>braças</orig><reg>brazas</reg></choice>, limpio y bueno donde
+          <lb/>ay agua, leña y mucho pescado. <choice><orig>Estava</orig><reg>Estaba</reg></choice> de tierra una legua y se
+          <lb/>puede pasar a la tierra de ella. Suele ser <choice><orig>cueba</orig><reg>cueva</reg></choice> de ladrones, y por el
+          <lb/>tanto es menester por aquí <choice><orig>nabegar</orig><reg>navegar</reg></choice> con <choice><orig>cuydado</orig><reg>cuidado</reg></choice>. El mismo
+          <lb/>día a las cinco de la tarde <choice><orig>estubimos</orig><reg>estuvimos</reg></choice> en <placeName>Cabo Frío</placeName>. Es un morro con
+          <lb/>barreras cortadas a pique. Tiene un <choice><orig>yslote</orig><reg>islote</reg></choice> <choice><orig>çerca</orig><reg>cerca</reg></choice>, es un monte alto
+          <lb/>y grueso, y en lo más alto deel está un montezillo agudo, viniendo
+          <lb/>de mar enfuera. La <choice><orig>buelta</orig><reg>vuelta</reg></choice> <choice><orig>deel</orig><reg>del</reg></choice> oeste tiene la forma siguiente.
+        </p>
 
-        <p></p>
+          <figure> <!-- CHECK figura 3 -->
+            <figDesc>C. Frío visto al Oeste</figDesc>
+          </figure>
+          <figure> <!-- CHECK figura 4 -->
+            <figDesc>C. Frío visto al lesnoroeste</figDesc>
+          </figure>
+        <!-- CHECK come marcare parola di "collegamento" <fw>? -->
 
-        <p></p>
+      <pb n="2r" facs="data/images/single/discurso-02r.png" xml:id="D_fol_02r"/>
+
+        <p>
+          <lb/>fuimos nabegando aquella noche la buelta <choice><orig>deel</orig><reg>del</reg></choice> Oeste con poquísimo
+          <lb/>viento y mar bonancible. Amanecimos a 15 en las <choice><orig>yslas</orig><reg>islas</reg></choice> de Mari-
+          <lb/>cara <!-- CHECK sono le Ilhas Maricá, e sono due non tre --> que son tres <choice><orig>yslotes</orig><reg>islotes</reg></choice> apartados de tierra cosa de una legua y de
+          <lb/>el río de Janero 2 leguas y m./media. Pásase a la tierra <choice><orig>deellos</orig><reg>de ellos</reg></choice> por 10
+          <lb/>y 12 braças fondo de arena. Toda esta costa desde el cabo frío
+          <lb/>al rio de Janero se corre leste oeste. Es playa; y entre los dos se 
+          <lb/><choice><orig>haze</orig><reg>hace</reg></choice> una muy grande ensenada. Pasadas las <choice><orig>yslas</orig><reg>islas</reg></choice> de <placeName>Marica-
+          <lb/>ra</placeName> por ser el viento bonancible y calma, tardamos hasta después
+          <lb/>de mediodía en llegar a la boca <choice><orig>deel</orig><reg>del</reg></choice> río, la entrada <choice><orig>deel</orig><reg>del</reg></choice> <choice><orig>qual</orig><reg>cuao</reg></choice> es no-
+          <lb/>roeste sueste quarta de [norte]sur. A la banda <choice><orig>deel</orig><reg>del</reg></choice> leste de la boca <choice><orig>ay</orig><reg>hay</reg></choice>
+          <lb/>tres <choice><orig>yslas</orig><reg>islas</reg></choice>, y al oeste <choice><orig>deellas</orig><reg>de ellas</reg></choice> una, llama.se/llamanse las <choice><orig>yslas</orig><reg>islas</reg></choice> de <placeName>las Palmas</placeName>.
+          <lb/>Puédese pasar entre ellas y la tierra <choice><orig>deellas</orig><reg>de ellas</reg></choice>, pero la principal en-
+          <lb/>senada es entre la deel Oeste, y las tres <choice><orig>deel</orig><reg>del</reg></choice> leste. En excapulan-
+          <lb/>do estas <choice><orig>yslas</orig><reg>islas</reg></choice> en la banda <choice><orig>deel</orig><reg>del</reg></choice> oeste está un <choice><orig>çerro</orig><reg>cerro</reg></choice> alto y redondo
+          <lb/>que bate la mar en él a que llaman el <placeName>pan de <choice><orig>açúcar</orig><reg>azúcar</reg></choice></placeName> por parecer-
+          <lb/>le. Pasado el <placeName>pan de <choice><orig>açúcar</orig><reg>azúcar</reg></choice></placeName> está una laja en mitad deel río ten-
+          <lb/>dida leste oeste y se puede pasar por <choice><orig>qualquiera</orig><reg>cualquier</reg></choice> parte, pero la me-
+          <lb/>jor entrada es arrimados a la tierra <choice><orig>deel</orig><reg>del</reg></choice> leste. <choice><orig>Ay</orig><reg>Hay</reg></choice> en tierra al les-
+          <lb/>te y oeste deesta laxa dos fuertes que dificultan la entrada al 
+          <lb/>enemigo. Luego más adelante está la <choice><orig>ysla</orig><reg>isla</reg></choice> de <placeName>Virgallón</placeName>, la
+          <lb/>qual siempre que da a la banda de babor. Al norte <choice><orig>de ella</orig><reg>de ella</reg></choice> cosa 
+          <lb/>de media legua o tres <choice><orig>quartas</orig><reg>cuartas</reg></choice> está la <placeName><choice><orig>ysla</orig><reg>isla</reg></choice> de los cobras</placeName>, y entre 
+          <lb/>las dos <choice><orig>ay</orig><reg>hay</reg></choice> un banco de arena, enfrente <choice><orig>deel</orig><reg>del</reg></choice> mismo lugar que está
+          <lb/>tendido a lo largo de la playa y entre las dos está el puerto donde 
+          <lb/>están ancorados los navíos a tiro de piedra de las casas.
+        </p>
+        
+        <p>
+          <lb/>Para entrar en él se va algo arrimando a la tierra <choice><orig>deel</orig><reg>del</reg></choice> leste, y se
+          <lb/>da una <choice><orig>buelta</orig><reg>vuelta</reg></choice> a la <placeName><choice><orig>ysla</orig><reg>isla</reg></choice> de los cobras</placeName>, por cuyas espaldas y entre 
+          <lb/>ella y el co.vento/convento de S. Benito se entra en el puerto. Es este río fa-
+          <lb/>moso y que entramos de 30 leguas la tierra adentro con una <choice>
+            <orig>yn<lb/>mensidad</orig>
+            <reg>in<!-- CHECK add numbered <lb/> -->mensidad</reg></choice> de <choice><orig>yslas</orig><reg>islas</reg></choice>, y porque no ay de que guardarse si no es
+          <lb/>de lo que se be con los ojos. A dos o tres leguas al sur, y sudo-
+          <lb/>este de la boca ay siete <choice><orig>yslas</orig><reg>islas</reg></choice> a la una de las <choice><orig>quales</orig><reg>cuales</reg></choice> llaman la <choice>
+            <orig>ys<lb/>la</orig>
+            <reg>is<!-- CHECK add numbered <lb/> -->la</reg></choice> redonda por su forma y a las otras <choice><orig>deel</orig><reg>del</reg></choice> <placeName>Señor mi Pay</placeName>.<!-- CHEK nota: se trata de las islas Menina, Mae y Pai -->
+        </p>
+        
+        <p>
+          <lb/>La tierra adentro por el río se ve una montaña en cuyo viso están unos
+          <lb/>picos, unos más altos que otros a modo de órganos y así les lla-
+          <lb/>man <placeName>los órganos</placeName>.
+        </p>
+        
+        <p>
+          <lb/>La gavia es una montaña muy alta entrente de las <choice><orig>yslas</orig><reg>islas</reg></choice> <choice><orig>deel</orig><reg>del</reg></choice> <placeName>s./Señor
+          <lb/>mi Pay</placeName>; y viniendo de mar en fuera es el mayor conocimiento
+          <lb/>que tiene este puerto y por el tanto saqué la vista <choice><orig>de ella</orig><reg>de ella</reg></choice>, <placeName>órganos</placeName> 
+          <lb/>y <placeName>pan de <choice><orig>açúcar</orig><reg>azúcar</reg></choice></placeName> que es la siguiente.
+        </p>
+        <!-- CHECK come marcare parola di "collegamento" <fw>? -->
+
+      <pb n="2v" facs="data/images/single/discurso-02v.png" xml:id="D_fol_02v"/>
+
+
+        <figure><figDesc>órganos vistos al nornordeste. Pan de açúcar al mismo.</figDesc></figure> <!-- CHECK figura 5 -->
+        <figure><figDesc>Vista al noroestes. Por esta anchura se ven los órganos. La gavia del norte.</figDesc></figure> <!-- CHECK figura 6 -->
+        
+      </div>
+      
+      <div type="chapter" n="2">
+        
+        <head>C. 2. deel río de Janero al cabo de S. Jorge</head>         
+       
+      <p>
+        <lb/>En seis de Diz.e/diciembre <choice><orig>deel</orig><reg>del</reg></choice> mismo año de 1618 nos <choice><orig>hezimos</orig><reg>hicimos</reg></choice> a la vela
+        <lb/><choice><orig>deel</orig><reg>del</reg></choice> río de Janero baziando la agua aunque con poquísimo vien-
+        <lb/>to terral el que nos sacó hasta las <choice><orig>yslas</orig><reg>islas</reg></choice> del S./Señor mi Pay donde
+        <lb/>nos refrescó el viento leste y se puso la proa al sur en la <choice><orig>qual</orig><reg>cual</reg></choice> se
+        <lb/><choice><orig>andubieron</orig><reg>anduvieron</reg></choice> 26 leguas. En 7 no <choice><orig>ubo</orig><reg>hubo</reg></choice> sol y con vientos sudo-
+        <lb/>estes se <choice><orig>andubieron</orig><reg>anduvieron</reg></choice> 16 leguas al sueste. En 8 me hallé en
+        <lb/>24g./grados 51 M./minutos de altura y con vientos nortes; se gobernó al susu-
+        <lb/>doeste. A 9 <choice><orig>estubimos</orig><reg>estuvimos</reg></choice> de mar en <choice><orig>trabés</orig><reg>través</reg></choice> por el viento sudoeste 
+        <lb/>y tomé de altura 25g./grados 40 m./minutos, y saltando en la noche el viento al
+        <lb/>sueste se gobernó lo restante la derrota o singlagura al sudoes-
+        <lb/>te <choice><orig>quarta</orig><reg>cuarta</reg></choice> al sur. A 10 me hallé en 26g./grados 31m/minutos de aparta-
+        <lb/>miento alos quatro<note>illeggibile</note> y con los suestes frescos se gobernaron 36 
+        <lb/>leguas al sudoeste. A 11 no <choice><orig>ubo</orig><reg>hubo</reg></choice> sol, el viento sudoeste y 
+        <lb/>sur es <choice><orig>fresquissimos</orig><reg>fresquísimos</reg></choice> por lo qual nos pusimos de mar en trabés.
+        <lb/>A 12 no <choice><orig>ubo</orig><reg>hubo</reg></choice> sol, con el mismo <choice><orig>biento</orig><reg>viento</reg></choice> nos estábamos <choice><orig>todadía</orig><reg>dodavía</reg></choice>
+        <lb/>de mar en <choice><orig>trabés</orig><reg>través</reg></choice>. a 13 me hallé en 25 g./grados 10 m./minutos ¡. Saltó
+        <lb/>el viento al susueste, dimos vela y se tomó la derrota deel 
+        <lb/>sudoeste <choice><orig>quarta</orig><reg>cuarta</reg></choice> deel oeste (descaecimos en estos tres días que estu-
+        <lb/>bimos de mar en <choice><orig>trabés</orig><reg>través</reg></choice> 10 leguas al nornoroeste). Alargóse el 
+        <lb/>viento y fueronse tomando diferentes derrotas peo ultimamen-
+        <lb/>te se vino a <choice><orig>hazer</orig><reg>hacer</reg></choice> el camino deel sudoeste 36 leguas por respecto 
+        <lb/>deel abatimiento deel navío y de la variación.en las singla-
+        <lb/>duras pasadas y siguientes si se quisiere cartear se le dará
+        <lb/>el reaguardo deel abatimiento quando andubo de 40, y el
+        <lb/>de la variación. En 14 no ubo sol, el viento sueste, la dero-
+        <lb/>ta al sudioeste quarta al sur hasta las quatro de la tarde que bimos tier-
+        <lb/>ra al 04 noroeste. Refrescó el viento leste, y por hallarnos tan a ter-
+        <lb/>rados se puso la proa al sur 4 al sudoeste. Andubiéronse algunas 
+        <lb/>45 leguas. a 15 me hallé en 30g. 10. El viento fue nornordes-
+        <lb/>te, norte, y noroeste. Las derrotas fueron, 8 leguas al susudoeste. 
+        <lb/>26 al sudoeste 4 al sur, y 12 al sudoeste. A 16 me hallé en 
+        <lb/>32 g. 40, y con viento nornoroeste, fue la derrota al sudoeste 
+        <lb/>quarta al sur. A 17 me allé en 33g. 54 m., con biento les-
+      
+      <pb n="3r" facs="data/images/single/discurso-03r.png" xml:id="D_fol_03r"/>
+
+        <lb/>nordeste, que en esta singladura dio la buelta hasta ponerse al 
+        <lb/>norte se gobernó al sudoeste. A 18 me hallé en 35g. 18 m.
+        <lb/>de altura, y con vientos nortes se anduviero./anduvieron 16 leguas al sudo-
+        <lb/>este. A 19 fallamos el viento al sudoeste pusimos de mar
+        <lb/>en trabés y sundando nos hallamos en 20 braças y encima de
+        <lb/>un bando de arena que está en la boca deel rio de la plata, en el
+        <lb/>qual estando de 20 a 25 braças están 12 leguas apartados de tier-
+        <lb/>ra. alargó el viento y se andubieron de lo seis leguas al sudo-
+        <lb/>este, y dando otro bordo a la mar en la derrota al sueste se anda-
+        <lb/>ria otro tanto camino. Al anochecer nos hallamos en 16 bra-
+        <lb/>ças y en la mañana se tomaron 27 de fondo todo arena gorda.
+        <lb/>A 20 me hallé en 36 gra. 10. y con el viento al leste y nor-
+        <lb/>te; se gobernó lo restante de la singladura al susudoeste.
+        <lb/>A 21 me hallé en 37g. 40. con el viento noroeste se andubo algu/algun
+        <lb/>poco al susudoeste, y saltando el viento al sudoeste, sur y sueste
+        <lb/>nos pusimos de mar en trabés. A 22 me hallé en 37 gra.s/grados
+        <lb/>58 mi. y dando el viento buelta al nordeste se puso la proa al
+        <lb/>sudoeste, saltó al norte y al noroeste como tiene de costum-
+        <lb/>bre en todas estas partes; volvió al leste, y al nordeste.
+        <lb/>A 23 me hallé en 38 g. 27m. El viento lesnordeste, la der-
+        <lb/>rota al sudoeste, salto al noroeste y otra bez al leste y nordeste,
+        <lb/>tubimos también sudoestes y estubimos de relox, en el
+        <lb/>yntermim se sacaro./sacaron algunos pescados y entrada esta singladura
+        <lb/>se pudo andar 24 leguas. A 24 fue el día inconstante de
+        <lb/>viento y sol como los pasados; la derrota al sudoeste, ubo algunos
+        <lb/>ratos de calma sondáronse en 50 braças arena blanca de re-
+        <lb/>lox. Pescáronse caçones, safíos y pescados. Vimos en esta mar 
+        <lb/>des deel río de La Plata muchas ballenas y lobos marinos.
+      </p>
+      <p>
+        <lb/>A 25 me hallé en 44 g. 13 mi. Tubimos contrastes de viento co-
+        <lb/>mo en los días pasados, porque en todos estos parajes son los vientos
+        <lb/>inconstantísimos y no fixan en una parte mucho tiempo, i sie.
+        <lb/>pre / siempre acostumbran dar la buelta de leste por el nordeste, norte,
+        <lb/>y noroeste. La derrota era deel sudoeste. Estubimos de mar
+        en trabés, pescose como solía y hallose e mismo fondo.
+      </p>
+      <p>
+        <lb/>A 26 me hallé en 40g.54'. Tubimos vientos nordestes, nortes, 
+        <lb/>noroestes y sures. Estúbose algún rato de mar en trabés, fue la
+        <lb/>derrota franca de esta singladura la deel sudoeste. Hallamos 
+        <lb/>fondo de 45 braças arena blanca. A 27 me hallaba en 
+        <lb/>42 g. de altura, estaba más de mar en trabés con viento sur y
+        <lb/>dando la buelta por el nordeste como tiene de costu.bre/costumbre hasta el
+        <lb/>noroeste se navegó al sudoeste. Sondamos en 38 braças arena
+      </p>
+  <pb n="3v" facs="data/images/single/discurso-03r.png" xml:id="D_fol_03v"/> 
+      <pb/>
+      <p>
+        <lb/> algo prieta pero de reloges. A 28 me hallé en 42 g. 32, el 
+        <lb/>viento noroeste, la drrota al sudoeste. Hallose en 49 braças
+        <lb/>arena de rekix fundo limpio. A 29 me hallé en 43g 33.
+        <lb/>el viento nordestes morte, y uvo este fresco. La derrota el sudo-
+        <lb/>este. Fuimos digo tubimos sudoestes y sures y por ellos se tomaron
+        <lb/>las velas y nos pusimos la mar en trabés. Y en fundo de 50 braças
+        <lb/>se halló arena de relox. A 30 me hallé en 44 g. 19 m. el viento
+        <lb/>susudoeste, estábamos toda día de mar en trabés. A 31 du-
+        <lb/>raba el sudoeste con la misma furia hasta que a las 10 de la ma-      
+        <lb/>ñana faltó al viento al norte y tomamos nuestra acostumbrada de-        
+        <lb/>rota del sudoeste. Decaerían los navíos en el tiempo que 
+        <lb/>estubimos de mar en trabés algunas 10 leguas al norte.
+        </p>
+        <p>
+        <lb/>Enero de 1619
+        <lb/>A primero de enero me hallé en 44g. 10. el viento norte.
+        <lb/>la derrota al sudoeste, 24 leguas- Al salir deel sol sfaltó el 
+        <lb/>viento, fue fuerça ponernos de mar en trabés- A dos estábamos
+        <lb/>toda día de mar en trabés, el viento era sudoeste, descaería
+        <lb/>quatro leguas al nor nordeste. A 3 me hallé en 44 g. en
+        <lb/>nornordeste, y con la proa al sudoeste; a las 3 horas de la tarde
+        <lb/>vimos tierra. Era esta tierra unas montañas altas comprehendi-
+        <lb/>das entre los rumbos del oeste y oessudoeste. A la parte del su-
+        <lb/>doeste parecía un <!-- CHECK muro --> cortado a pique, y las montes eran más al-
+        <lb/>tas en la banda del oeste, y se parecía encima deellas un peñasco 
+        <lb/>como un castillo o fuerte, y estaba eminenente a todas las montes.
+        <lb/>Acercándonos más a ella se nos apareció más clara y distincta y tie-
+        <lb/>rra muy alta, toda ygual y de pocas quiebras. Hazia el sur se
+        <lb/>apareció un monte redondo y de la forma de un montón de trigo,
+        <lb/>cuya <!-- CHECK qui c'è qualcosa di cancellato anche in margine--> de las dos era la más baxa. El fuerte siempre apa-
+        <lb/>reçía, encima <!-- CHECK QUI C'È UNA VIRGOLA CANCELLATA con un legato musicale --> la ygualdad de los montes. Venimos a ama-
+        <lb/>necer el día quarto, quatro leguas a la mar deel cabo de San-
+        <lb/>ta Elena que el viento no más dio lugar a más y en fundo de 51
+        <lb/>braças se halló arena de reloges limpio y bueno. La muestra
+        <lb/>y vista deel cabo de S. Elena mirado al oeste es la siguiente
+        <lb/>y tanto por la banda deel sur como la de el norte del mismo ca-
+        <lb/>bo se van haziendo ensenadas.
+        </p>
+                <figure><figDesc>Cabo de S.ta Elena morado al oeste </figDesc></figure> 
+                <!-- CHECK fig. c. 3v al fondo -->
+      
+      <pb/>
+         <p>  
+        <lb/>Del cabo de S. Elena al C. de S. Jorge que está en 47 g escasos unas 28 o trein-
+        <lb/>ta leguas y se corre el uno con el otro nortesur, y ay entre ellos una muy
+        <lb/>grande ensenada. Es la tierra deeste cabo baxa y rasa y la costa
+        <lb/>hazia la ensenada se corre noroeste sueste y quanto más a la ensena-
+        <lb/>da se lebanta más, y en ella de mar enfuera viniéndola a buscar, con la pro-
+        <lb/>a al sur, se ven muchas manchas blancas o montones de arena que de mar
+        <lb/>enfuera parecen montones de sal, y estendiendo la bista hazia el muro este
+        <lb/>se pareçen como muchas quintas o casas, y son los mismos montones de arena.
+        <lb/>es toda tierra pelada, seca, estéril y sin un árbol, y la costa de barreras
+        <lb/>pardas. En el mismo cabo se ven dos yslotes redondos y más al- 
+        <lb/>tos que la tierra deel mismo cabo, parecen de lexos que están de por sí, pero
+        <lb/>en realidad de berdad están unidos con la misma tierra, son de piedra
+        <lb/>pelada y negra por labarlas el agua de la mar.
+        </p>
+        <p>
+        <lb/>Dos leguas antes de llegar a este cabo se be el agua barrienta, y en fundo de
+        <lb/>20, 18 braças se hallarán pedrejuelas pardas. Es la corriente de las agu-
+        <lb/>as en este cabo grandíssima, pues con dificultad la rompíamos, teniendo vi-
+        <lb/>ento fesco. Media legua y menos al muro este deel cabo sale al lesnor-
+        <lb/>deste una restringa como de dos ayustes de largo en la qual se berá romper 
+        <lb/>la mar. Llegamos al cabo de S. Jorge Sábado 5 de Enero de 1619 y ha-
+        <lb/>llamos que las aguas corrían con gran furia la buelta deel norte.
+        </p>
+        </div>
+        <div type="chapter" n="3">
+        
+        <head>C. tercero. deel cabo de S. Jorge al cabo de las Vírgines.</head>   
+        <p>
+        <lb/>Deel cabo de S. Jorge a la punta gorda que aparece sobre una tierra baxa
+        <lb/>y esta en 47g. 16m. seis leguas al sur, es esta costa tierra baxa aunque
+        <lb/>algo más ala que la ddel cabo de S. Elena de barreras pardas y de arena
+        <lb/>parda a la lengua del agua, veránse en la tierra 3 montezillos redon-
+        <lb/>dps juntos, es tierra pelada y sin árbol. Por estos montezillos ser la tie-
+        <lb/>rra deel cabo de S. Jorge llana, y sys yslotes, correrse este pedaço de cos-
+        <lb/>ta nortesur, y la banda deel norte deel mismo cabo no verse tierra, serán
+        <lb/>bastantes conocimientos para venir a buscar el C. de S. Jorge por su al-
+        <lb/>tura. De la punta gorda a las yslas de los Reyes que están en 47
+        <lb/>g. 40. Siete leguas y media al susueste entre ambos hay una ensena-
+        <lb/>da non muy metida la tierra adentro. Discurriendo por la tierra de la 
+        <lb/>costa desde la punta, se hallará ser baxa, y luego después se encontrará
+        <lb/>con dos çerros redondos no muy apartados el uno deel otro y la tierra
+        <lb/>que la buelta deel sur se les sigue es mucho más baxa que ellos, a la
+        <lb/>qual se le sigue un grande pedaço de costa alta pareja  y de mar enfue-
+        <lb/>ra parece que está sacada a nivel, y la que se sigue a esta hasta las ys-
+        <lb/>las es tierra más gruesa y desygual, a la lengua del agua en esta en-
+        <lb/>senada se verán dos peñascos el uno como un pan de açúcar, y el otro
+        <lb/>más quadrado que redondo. Es toda tierra pelada y sin árbolado.
+        </p>
+        <p>
+        <lb/>es esta ysla algo grande pero pelada, la punta que saca al sur es más
+
+        <pb/>
+
+        <lb/>baxa que la que tiene al norte la qual punta es redonda y de piedra
+        <lb/>arratonada. Tiene 6 o 7 yslotes çcerca, y a la tierra deella una ysla rasa
+        <lb/>estendida nortesur. Los yslotes son redondos, y beniéndola a buscar <!-- CHECK qui c'è un de cancellato --> por
+        <lb/>este rumbo se parecen dos a la mar deella. Está al noroeste deesta
+        <lb/>ysla la entierra un río grande el qual tiene un buen puerto a quien los
+        <lb/>Olandeses llaman Puerto Syre. Hallamos aquí que corrían las aguas . 
+        <lb/>la buelta deel sur. De la ysla de los Reyes a la ysla de los máxaros que 
+        <lb/>está en 48g. al susudoeste ay en el intermedio deestas dos yslas (las
+        <lb/>wuslrd están quasi apegadas a la misma costa) una grande ensenada
+        <lb/>y en el mayor rincón deella a la lengua del agua se ven de mar enfue-
+        <lb/>ra dos çerrillos blancos juntos, los quales son yslas de páxaros que 
+        <lb/>habitan en ellas, y son sin número. Halláronse tanta quantidad
+        <lb/>de leones marinos que parecerá consa fabulos el contallo. Púsoseles
+        <lb/>este nombre por tener el pecho, cerbiz, cabeça, y rugir de león semeján-
+        <lb/>doles en algo su ferocidad. Era tiempo de cría y tenían una infini-
+        <lb/>dad de hijuelos en tierra, porque en ella crían. Los más son par-
+        <lb/>dos con un pelo muy lardo deel pocho arriba con grandes colmillas y barbas
+        <lb/>de cerdos más duras y gruesas. Eran feroces. questa arriba andaban
+        <lb/>poco, pero questa abaxo alcançarían un hombre. Son  tan grandes co-
+        <lb/>mo bueyes. Las leonas son más delgadas, más pequeñas y de color blan-
+        <lb/>co. Los hijuelos son todos negros. Balaban de la misma manera que
+        <lb/>obejas y cabritos, y estar entre ellos era estar en un hato de ganado.
+        <lb/>Matáronse algunos, y con dificultad morían si no les daba la ba-
+        <lb/>la çerca de los ojos. Desolláronse algunos. La carne como la de una 
+        <lb/>vaca, su pellejos mucho más gruesos que los te un toro. Cogiéronse mu-
+        <lb/>chísimos pájaros en sus nidos ya grandes. Fue esto en 7 de Octubre.
+        </p>
+        <p>
+        <lb/>Dimos fundo metidos en la ensenada cosa de una legua apartados de
+        <lb/>las yslas en 12 braças, arena prueta, y hasta ellas con una chalupa.
+        <lb/>siempre hallamos 10, 8, 6 braças de fundo limpio y buen tenedor,
+        <lb/>siendo baxa mar, es buen puesto, pero fáltale agua y leña.
+        </p>
+        <p>
+        <lb/>En una deestas yslas con una línea meridiana saqué la altura de
+        <lb/>el polo deellas, y fue 47g 50m, y la bariación de a aguja de
+        <lb/>14g. poniéndoseme la flor de lis de la aguja entre la meridiana y 
+        <lb/>el nordeste, de donde evidentissimamente colegí que la bariación
+        <lb/>que la eguja tenía era de nordesteación. En el río de Janero
+        <lb/>sobre una meridiana en tierra hallé 16g. de nordesteación. En
+        <lb/>la mar en doto el discurso de este camino siempre la hallé de nordes-
+        <lb/>teación. Todo lo qual es contra la común opinión de los pilotos
+        <lb/>Portugueses y del su cosmógrafo Figueredo, que dije que en
+        <lb/>el meridiano que pasa 50 leguas al oeste de la ysla deel Querno
+        <lb/>fixan las agujas, y al oeste desste meridiano noroestean por los qual
+        
+        <pb/>
+
+        <lb/>el río de Janero y estas yslas de los leones abían de noroestear
+        <lb/>las agujas pues el meridiano de estas yslas está a oeste de la
+        <lb/>ysla deel querno pasadas de 540 leguas. Assimismo he  
+        <lb/>experimentado ser falso lo que tienen por cierto los pilotos Por-
+        <lb/>tugueses y su cosmógrafo Figueredo con ellos en su regimien-
+        <lb/>to o derrotero, de que nabegando nortesur, tiene la aguja si-
+        <lb/>empre una misma bariación, pues en la navegación deel C. de las
+        <lb/>Vírgines hasta la Ysla del Querno siembre fui hallándola me-
+        <lb/>, y en Pernambuco que está quasi en el mismo meridiano 
+        <lb/>que la ysla del Querno hallé por dos o tres vezes más de 12
+        <lb/>grados de vaiación. Asimismo experimentó ser falso lo que
+        <lb/>dizen estos mismos que nabegando leste oeste creçe y mengua
+        <lb/>mucho la bariación pues corriendo más de 300 leguas por al-
+        <lb/>tura de 9 grados largos hallé siempre quasi una misma
+        <lb/>bariación <!-- CHECK c'è una integrazione a sinistra resa illeggibile da un foglio inscollato a posteriori --> de donde coligo que conforme a los parajes
+        <lb/>deel mundo así es la bariación, no guardando respeto a pro-
+        <lb/>porción alguna y que en los leste oeste crece y mengua
+        <lb/>y en otros no, y por lo contrario nortesur, como lo tiene ense-
+        <lb/>ñado de la experiencia. La costa desde la usla de los Reyes a la de
+        <lb/>los leones es tierra no muy alta y tiene algunas barreras pardas, y desde
+        <lb/>la ysla de los Reyes se be en lo más alto de todo como un campanario.
+        </p>
+        <p> la Ysla de los páxaros se be blanquear çerca de la costa y lo blanco es
+        <lb/>de siziedades de páxaros. De la ysla de los Páxaros a las yspas de S. Dio-
+        <lb/>nisio, 10 leguas y 1/2 al sudoeste quarta al sur están en 48g 1/2 . Son
+        <lb/>Dos: la una es redonda y la otra es rasa. están muy junto de tierra, no
+        <lb/>las reconocimos, ni memos un puerto que está a la tierra deellas.
+        </p>
+        <p>
+        <lb/>La costa desde la ysla de los páxaros a estas yslas es tierra baxa y sin
+        <lb/>un arbol, y en ella se berá un çerro algo levantado que tiene la for-
+        <lb/>ma de un a gorra de Milán chata, y todo lo demás es tierra llana
+        <lb/>a la vista de la mar sobre unas peñas se berán unas manchas blan-
+        <lb/>cas y la tierra adentro se berá lo mismo en algunas partes, es de su-
+        <lb/>ziedad de páxaros. En la mitad deeste camino çerca de tierra
+        <lb/>en la mitad de esta ensenada se verán 5 farallones los quales se
+        <lb/>ven negregear mucho. Al sueste deestas yslas, cpsa de un tiro
+        <lb/>de culebrina sale un arrazife, y en él se verá una laja descubier- 
+        <lb/>ta que rompe la mar en ella. Cuatro leguas y 1/2 al lessueste
+        <lb/>de ests yslas se descubrió una laja que la lababa la mar, y media
+        <lb/>legua al norte deella en fondo de 26 braças de halló piedra. Co-
+        <lb/>noceránse estas yslas y evitaráse el peligro de la laja, en el co-
+        <lb/>nocimiento, muestra y debuxo de la tierra siguiente, la qual
+        <lb/>mirada al noroeste 4 del oeste tiene la forma presente, y está a las
+        <lb/>espaldas de las mismas yslas. Hallamos en este paraje ynfinitos lobos y
+        <lb/>perros marinos.
+        </p>
+        <pb/>
+        <figure><figDesc>tierra de las yslas de S. Dionisio vista al noroeste 4 al oeste </figDesc></figure>
+        <figure><figDesc>vista al norte </figDesc></figure>
+        <!-- CHECK figure c. 5v in cima -->
+        <p>
+        <lb/>Deestas yslas al cabo de barreras 37 leguas al susudoeste, ésta en 50g
+        <lb/>y 12m. En escapulando las yslas es la tierra de la costa baxa, es y-
+        <lb/>gual pelada y sin un arbol. En lo más llano deella se berá un mon-
+        <lb/>tezillo algo levantado, largo, prolongado y de la forma que los labra-
+        <lb/>dores hazen sus pajares. Después deeste se ba levantando la costa y
+        <lb/>tierra deella, en la qual parecen algunos boquerones, pero todo
+        <lb/>lo más alto de los montes es ygual y parejo hasta vebur a rematarse en
+        <lb/>una tierra cuyo apartamiento de la línea es de 49 y en lo que es
+        <lb/>ser alta se continua con la pasada, pero diferénciase en que parece
+        <lb/>como un valle en el qual ay muchos montes agudos y redondos. Al
+        <lb/>leste deella cosa de, o 7 leguas, estubimos dos días de mar en trabés.
+        </p>
+        <p>
+        <lb/>estaba en este paaje la baya de S. Julián según dava muestras una
+        <lb/>ensenada, y su altura, y con andar lo restante de la costa tierra a ti-
+        <lb/>erra no se encontró. No se reconoció. estando 6, o 7 leguas a la 
+        <lb/>mar deella parece la tierra con la forma siguiente mirada al 
+        <lb/>oeste.
+        </p>
+              <figure><figDesc>Baya de S. Julián bista al oeste.</figDesc></figure>
+        <!-- CHECK figure c. 5v a metà -->
+        <p>
+        <lb/>Después deesta tierra es la costa más baxa y en partes llana, es
+        <lb/>también seca y sin un arboledo en toda ella. Deeste cabo a la 
+        <lb/>baya de la Cruz <!-- CHECK la Cruz è rappresentata con un + -->, 16 leguas al sudoeste está en la altura de 50g. 50m.
+        <lb/>Es toda esta costa tierra baxa, y de barreras blancas, y nabegan-
+        <lb/>do apartados deella cosa de media, y una legua en fondo de
+        <lb/>12. 12. 16 braças se hallaba arena negra de reloges. No se vio un
+        <lb/>árbol ni una mata en toda ella, era tan estérol, seca y pelada
+        <lb/>como la tierra que hasta aquí teníamos vista. Antes de llegar
+        <lb/>a la Baya de la Cruz es la tierra más gruesa y ay unos montes
+        <lb/>altos los quales bienen haziendo una falda, y baxando la buel-
+        <lb/>ta deel sur, y hazia la misma baya y en la costa barreras blancas.
+        <lb/>La tierra de la boca de la baya es baxa, y la punta que está al nor
+        <lb/>nordeste más alta que la deel susudoeste. Estubimos de
+        <lb/>mar en trabés enfrente deella dos leguas y media a lesnor-
+        <lb/>deste de la boca, y en fondo de 26 braças hallamos lama.
+        </p>
+        <p>
+        <lb/>Deesta baya al río de Gallegos 17 leguas al sudoeste. Está en 
+        <lb/>altura de 51g 45m. La tierra deesta costa es baxa y de ba-
+        <lb/>rreras blancas sin un arbol ni una mata en toda ella, y nave-
+        <lb/>gando media legua de la costa en fondo de 12, 10, 8 brazas
+        <lb/>hallamos arena negra de reloges. Viene a rematarse esta
+        <lb/>costa en un cabo de barreras blancas cortadas a pique que está
+        <lb/>en la boca deel mismo río, y las barreras se continuan al río
+        <lb/>arriba al oesudueste, y las últimas que se ben lo más aden-
+
+        <pb/>
+        
+        <lb/>tro
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+        <lb/>
+
+      </p>
 
       </div>
       
